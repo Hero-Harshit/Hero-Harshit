@@ -45,9 +45,9 @@
 
   <!-- Quote Content -->
   <g transform="translate(10, 0)">
-    <text x="56" y="44" class="quote-body">The more intelligent our machines become, the more</text>
-    <text x="56" y="72" class="quote-body">carefully we should protect the parts of ourselves that</text>
-    <text x="56" y="100" class="quote-body">cannot be reduced to computation.</text>
+    <text x="56" y="44" class="quote-body">There are problems worth solving because they are</text>
+    <text x="56" y="72" class="quote-body">difficult, and there are problems worth solving because</text>
+    <text x="56" y="100" class="quote-body">someone is quietly hurting.</text>
   </g>
 
   <!-- Footer Tag -->

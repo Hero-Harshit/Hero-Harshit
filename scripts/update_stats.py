@@ -3,10 +3,11 @@ import re
 import json
 import urllib.request
 import textwrap
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 
 USERNAME = "Hero-Harshit"
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
+IST = timezone(timedelta(hours=5, minutes=30))
 
 def fetch_graphql(query, variables=None):
     headers = {"User-Agent": "Mozilla/5.0"}
@@ -35,8 +36,8 @@ def update_daily_quote():
     if not quotes:
         return
 
-    # Use day of year to deterministically cycle through quotes
-    now = datetime.now(timezone.utc)
+    # Use IST day of year so it rolls over at midnight Indian Standard Time
+    now = datetime.now(IST)
     day_of_year = now.timetuple().tm_yday
     quote_index = (day_of_year + now.year) % len(quotes)
     todays_quote = quotes[quote_index]
@@ -166,7 +167,7 @@ def update_streak_and_stats():
         days.sort(key=lambda x: x[0])
         
         # Calculate current streak
-        today_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+        today_str = datetime.now(IST).strftime("%Y-%m-%d")
         c_streak = 0
         started = False
         for date_str, count in reversed(days):
