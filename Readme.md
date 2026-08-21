@@ -7,9 +7,9 @@ I’m currently exploring **Large Language Models**, **Agentic AI**, and **Intel
 ### ※ My Signature Projects
 
 <p align="center">
-  <a href="https://github.com/Hero-Harshit/monever"><img src="./card-monever.svg" alt="Monever" width="260" /></a>
-  <a href="https://github.com/Hero-Harshit/museum-of-memory-marbles"><img src="./card-memory-marbles.svg" alt="Museum of Memory Marbles" width="260" /></a>
   <a href="https://github.com/Hero-Harshit/nxt-health"><img src="./card-nxt-health.svg" alt="Nxt-Health" width="260" /></a>
+  <a href="https://github.com/Hero-Harshit/museum-of-memory-marbles"><img src="./card-memory-marbles.svg" alt="Museum of Memory Marbles" width="260" /></a>
+  <a href="https://github.com/Hero-Harshit/monever"><img src="./card-monever.svg" alt="Monever" width="260" /></a>
 </p>
 
 
@@ -27,7 +27,7 @@ I’m not chasing a particular title or rushing toward a destination right now. 
 
 # 2. My Socials
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-151515?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzBBNjZDMiI%2BPHBhdGggZD0iTTE5IDNhMiAyIDAgMCAxIDIgMnYxNGEyIDIgMCAwIDEtMiAySDVhMiAyIDAgMCAxLTItMlY1YTIgMiAwIDAgMSAyLTJoMTRtLS41IDE1LjV2LTUuM2EzLjI2IDMuMjYgMCAwIDAtMy4yNi0zLjI2Yy0uODUgMC0xLjg0LjUyLTIuMjggMS4zdi0xLjExaC0yLjc5djguMzdoMi43OXYtNC45M2MwLS43Ny42Mi0xLjQgMS4zOS0xLjRhMS40IDEuNCAwIDAgMSAxLjQgMS40djQuOTNoMi43NU02LjQ2IDEwLjl2OC4zN0g5LjJWMTAuOUg2LjQ2TTcuODMgNi42NGExLjY4IDEuNjggMCAwIDAtMS42OCAxLjY4IDEuNjggMS42OCAwIDAgMCAxLjY4IDEuNjggMS42OCAxLjY4IDAgMCAwIDEuNjgtMS42OGMwLS45My0uNzUtMS42OC0xLjY4LTEuNjhaIi8%2BPC9zdmc%2B)](https://www.linkedin.com/in/heroharshit)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-151515?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzBBNjZDMiI%2BPHBhdGggZD0iTTE5IDNhMiAyIDAgMCAxIDIgMnYxNGEyIDIgMCAwIDEtMiAySDVhMiAyIDAgMCAxLTItMlY1YTIgMiAwIDAgMSAyLTJoMTRtLS41IDE1LjV2LTUuM2EzLjI2IDMuMjYgMCAwIDAtMy4yNi0zLjI2Yy0uODUgMC0xLjg0LjUyLTIuMjggMS4zdi0xLjExaC0yLjc5djguMzdoMi43OXYtNC45M2MwLS43Ny42Mi0xLjQgMS4zOS0xLjRhMS40IDEuNCAwIDAgMSAxLjQgMS40djQuOTNoMi43NU02LjQ2IDEwLjl2OC4zN0g5LjJWMTAuOUg2LjQ2TTcuODMgNi42NGExLjY4IDEuNjggMCAwIDAtMS42OCAxLjY4IDEuNjggMS42OCAwIDAgMCAxLjY4IDEuNjggMS42OCAxLjY4IDAgMCAwIDEuNjgtMS42OGMwLS45My0uNzUtMS42OC0xLjY4LTEuNjhaIi8%2BPC9zdmc%2B)](https://www.linkedin.com/in/heroharshit) [![LeetCode](https://img.shields.io/badge/LeetCode-151515?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI0ZGQTExNiI%2BPHBhdGggZD0iTTEzLjQ4MyAwYTEuMzc0IDEuMzc0IDAgMCAwLS45NjEuNDM4TDcuMTE2IDYuMjI2bC0zLjg1NCA0LjEyNmE1LjI2NiA1LjI2NiAwIDAgMC0xLjIwOSAyLjEwNCA1LjM1IDUuMzUgMCAwIDAtLjEyNS41MTMgNS41MjcgNS41MjcgMCAwIDAgLjA2MiAyLjM2MiA1LjgzIDUuODMgMCAwIDAgLjM0OSAxLjAxNyA1LjkzOCA1LjkzOCAwIDAgMCAxLjI3MSAxLjgxOGw0LjI3NyA0LjE5My4wMzkuMDM4YzIuMjQ4IDIuMTY1IDUuODUyIDIuMTMzIDguMDYzLS4wNzRsMi4zOTYtMi4zOTJjLjU0LS41NC41NC0xLjQxNC4wMDMtMS45NTVhMS4zNzggMS4zNzggMCAwIDAtMS45NTEtLjAwM2wtMi4zOTYgMi4zOTJhMy4wMjEgMy4wMjEgMCAwIDEtNC4yMDUuMDM4bC0uMDItLjAxOS00LjI3Ni00LjE5M2MtLjY1Mi0uNjQtLjk3Mi0xLjQ2OS0uOTQ4LTIuMjYzYTIuNjggMi42OCAwIDAgMSAuMDY2LS41MjMgMi41NDUgMi41NDUgMCAwIDEgLjYxOS0xLjE2NEw5LjEzIDguMTE0YzEuMDU4LTEuMTM0IDMuMjA0LTEuMjcgNC40My0uMjc4bDMuNTAxIDIuODMxYy41OTMuNDggMS40NjEuMzg3IDEuOTQtLjIwN2ExLjM4NCAxLjM4NCAwIDAgMC0uMjA3LTEuOTQzbC0zLjUtMi44MzFjLS44LS42NDctMS43NjYtMS4wNDUtMi43NzQtMS4yMDJsMi4wMTUtMi4xNThBMS4zODQgMS4zODQgMCAwIDAgMTMuNDgzIDB6bS0yLjg2NiAxMi44MTVhMS4zOCAxLjM4IDAgMCAwLTEuMzggMS4zODIgMS4zOCAxLjM4IDAgMCAwIDEuMzggMS4zODJIMjAuNzlhMS4zOCAxLjM4IDAgMCAwIDEuMzgtMS4zODIgMS4zOCAxLjM4IDAgMCAwLTEuMzgtMS4zODJ6Ii8%2BPC9zdmc%2B)](https://leetcode.com/u/HeroHarshit/) [![CodeChef](https://img.shields.io/badge/CodeChef-151515?style=for-the-badge&logo=codechef&logoColor=white)](https://www.codechef.com/users/heroharshit17)
 
 <br/>
 
