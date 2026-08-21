@@ -24,20 +24,17 @@ I’m not chasing a particular title or rushing toward a destination right now. 
 <!-- DAILY_QUOTE:END -->
 
 <br/>
-<br/>
 
 # 2. My Socials
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-151515?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzBBNjZDMiI%2BPHBhdGggZD0iTTE5IDNhMiAyIDAgMCAxIDIgMnYxNGEyIDIgMCAwIDEtMiAySDVhMiAyIDAgMCAxLTItMlY1YTIgMiAwIDAgMSAyLTJoMTRtLS41IDE1LjV2LTUuM2EzLjI2IDMuMjYgMCAwIDAtMy4yNi0zLjI2Yy0uODUgMC0xLjg0LjUyLTIuMjggMS4zdi0xLjExaC0yLjc5djguMzdoMi43OXYtNC45M2MwLS43Ny42Mi0xLjQgMS4zOS0xLjRhMS40IDEuNCAwIDAgMSAxLjQgMS40djQuOTNoMi43NU02LjQ2IDEwLjl2OC4zN0g5LjJWMTAuOUg2LjQ2TTcuODMgNi42NGExLjY4IDEuNjggMCAwIDAtMS42OCAxLjY4IDEuNjggMS42OCAwIDAgMCAxLjY4IDEuNjggMS42OCAxLjY4IDAgMCAwIDEuNjgtMS42OGMwLS45My0uNzUtMS42OC0xLjY4LTEuNjhaIi8%2BPC9zdmc%2B)](https://www.linkedin.com/in/heroharshit)
 
 <br/>
-<br/>
 
 # 3. Tech Stack
 
 ![Python](https://img.shields.io/badge/Python-151515?style=for-the-badge&logo=python&logoColor=3776AB) ![TypeScript](https://img.shields.io/badge/TypeScript-151515?style=for-the-badge&logo=typescript&logoColor=3178C6) ![JavaScript](https://img.shields.io/badge/JavaScript-151515?style=for-the-badge&logo=javascript&logoColor=F7DF1E) ![HTML5](https://img.shields.io/badge/HTML5-151515?style=for-the-badge&logo=html5&logoColor=E34F26) ![CSS3](https://img.shields.io/badge/CSS3-151515?style=for-the-badge&logo=css&logoColor=1572B6) ![PowerShell](https://custom-icon-badges.demolab.com/badge/PowerShell-151515.svg?style=for-the-badge&logo=powershell&logoColor=5391FE) ![React](https://img.shields.io/badge/React-151515?style=for-the-badge&logo=react&logoColor=61DAFB) ![Next.js](https://img.shields.io/badge/Next.js-151515?style=for-the-badge&logo=nextdotjs&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-151515?style=for-the-badge&logo=nodedotjs&logoColor=5FA04E) ![Express.js](https://img.shields.io/badge/Express.js-151515?style=for-the-badge&logo=express&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-151515?style=for-the-badge&logo=tailwindcss&logoColor=38B2AC) ![Bootstrap](https://img.shields.io/badge/Bootstrap-151515?style=for-the-badge&logo=bootstrap&logoColor=7952B3) ![Vite](https://img.shields.io/badge/Vite-151515?style=for-the-badge&logo=vite&logoColor=646CFF) ![PyTorch](https://img.shields.io/badge/PyTorch-151515?style=for-the-badge&logo=pytorch&logoColor=EE4C2C) ![TensorFlow](https://img.shields.io/badge/TensorFlow-151515?style=for-the-badge&logo=tensorflow&logoColor=FF6F00) ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-151515?style=for-the-badge&logo=scikitlearn&logoColor=F7931E) ![Pandas](https://img.shields.io/badge/Pandas-151515?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-151515?style=for-the-badge&logo=numpy&logoColor=4DABCF) ![MongoDB](https://img.shields.io/badge/MongoDB-151515?style=for-the-badge&logo=mongodb&logoColor=47A248) ![MySQL](https://img.shields.io/badge/MySQL-151515?style=for-the-badge&logo=mysql&logoColor=4479A1) ![Supabase](https://img.shields.io/badge/Supabase-151515?style=for-the-badge&logo=supabase&logoColor=3ECF8E) ![SQLite](https://img.shields.io/badge/SQLite-151515?style=for-the-badge&logo=sqlite&logoColor=0090FF) ![AWS](https://img.shields.io/badge/AWS-151515?style=for-the-badge&logo=amazon-aws&logoColor=FF9900) ![Vercel](https://img.shields.io/badge/Vercel-151515?style=for-the-badge&logo=vercel&logoColor=white) ![Render](https://img.shields.io/badge/Render-151515?style=for-the-badge&logo=render&logoColor=46E3B7) ![Git](https://img.shields.io/badge/Git-151515?style=for-the-badge&logo=git&logoColor=F05032) ![GitHub](https://img.shields.io/badge/GitHub-151515?style=for-the-badge&logo=github&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-151515?style=for-the-badge&logo=postman&logoColor=FF6C37) ![Figma](https://img.shields.io/badge/Figma-151515?style=for-the-badge&logo=figma&logoColor=F24E1E) ![Notion](https://img.shields.io/badge/Notion-151515?style=for-the-badge&logo=notion&logoColor=white) ![Canva](https://custom-icon-badges.demolab.com/badge/Canva-151515.svg?style=for-the-badge&logo=canva&logoColor=00C4CC)
 
-<br/>
 <br/>
 
 # 4. Achievements & Trophies
@@ -47,8 +44,6 @@ I’m not chasing a particular title or rushing toward a destination right now. 
 </p>
 
 <br/>
-<br/>
-
 
 # 5. GitHub Stats
 
@@ -59,7 +54,6 @@ I’m not chasing a particular title or rushing toward a destination right now. 
   <img src="./productivity.svg" alt="Hero Harshit's Coding Habits" />
 </p>
 
-<br/>
 <br/>
 
 
