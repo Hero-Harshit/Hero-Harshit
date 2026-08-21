@@ -1,10 +1,26 @@
+<p align="center">
+  <img src="./header.svg" alt="Hero Harshit" width="820" />
+</p>
+
+<br/>
+
 # 1. About Me
 
-I’m **Hero Harshit**, a second-year IT student at the **International Institute of Information Technology**, an author, a poet, and someone who enjoys wandering through the strange intersection of technology and human expression.
+I’m $\color{#ffb74d}{\textbf{Hero Harshit}}$, a second-year IT student at the $\color{#ffb74d}{\textbf{International Institute of Information Technology, Pune}}$, an author, a poet, and someone who enjoys wandering through the strange intersection of technology and human expression.
 
-I’m currently exploring **Large Language Models**, **Agentic AI**, and **Intelligent systems**, while already skilled in HTML, CSS, JavaScript, Python, SQL, Node.js, React, Git, and GitHub. I enjoy creating websites and applications that do more than simply solve a problem. I like giving them a personality, an idea, a story, or a little bit of depth that makes the experience feel distinctly human. Didn't understand what I mean ? Just look at my projects section, you will understand.
+I’m currently exploring $\color{#ffb74d}{\textbf{Large Language Models}}$, $\color{#ffb74d}{\textbf{Agentic AI}}$, and $\color{#ffb74d}{\textbf{Intelligent Systems}}$, while already skilled in HTML, CSS, JavaScript, Python, SQL, Node.js, React, Git, and GitHub. I enjoy creating websites and applications that do more than simply solve a problem. I like giving them a personality, an idea, a story, or a little bit of depth that makes the experience feel distinctly human. Didn't understand what I mean ? Just look at my projects section, you will understand.
 
-### ※ My Signature Projects
+I’m not chasing a particular title or rushing toward a destination right now. I’m simply learning, experimenting, breaking things, rebuilding them, and trying to understand what computers can become when we stop treating them as machines that only calculate and start treating them as $\color{#ffb74d}{\textbf{tools for expression}}$.
+
+<!-- DAILY_QUOTE:START -->
+<p align="center">
+  <img src="./quote.svg" alt="Hero Harshit's Daily Reflection" width="820" />
+</p>
+<!-- DAILY_QUOTE:END -->
+
+
+
+### ※ My Signature Projects (Top 3)
 
 <p align="center">
   <a href="https://github.com/Hero-Harshit/nxt-health"><img src="./card-nxt-health.svg" alt="Nxt-Health" width="260" /></a>
@@ -14,16 +30,6 @@ I’m currently exploring **Large Language Models**, **Agentic AI**, and **Intel
 
 
 ---
-
-I’m not chasing a particular title or rushing toward a destination right now. I’m simply learning, experimenting, breaking things, rebuilding them, and trying to understand what computers can become when we stop treating them as machines that only calculate and start treating them as tools for expression.
-
-<!-- DAILY_QUOTE:START -->
-<p align="center">
-  <img src="./quote.svg" alt="Hero Harshit's Daily Reflection" width="820" />
-</p>
-<!-- DAILY_QUOTE:END -->
-
-<br/>
 
 # 2. My Socials
 
