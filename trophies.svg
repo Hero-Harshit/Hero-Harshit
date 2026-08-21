@@ -1,0 +1,102 @@
+<svg width="820" height="135" viewBox="0 0 820 135" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gold-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE066" />
+      <stop offset="50%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+
+    <linearGradient id="diamond-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A5F3FC" />
+      <stop offset="50%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#0284C7" />
+    </linearGradient>
+
+    <linearGradient id="purple-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E879F9" />
+      <stop offset="50%" stop-color="#C084FC" />
+      <stop offset="100%" stop-color="#7C3AED" />
+    </linearGradient>
+
+    <linearGradient id="ruby-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDA4AF" />
+      <stop offset="50%" stop-color="#F43F5E" />
+      <stop offset="100%" stop-color="#BE123C" />
+    </linearGradient>
+
+    <linearGradient id="emerald-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6EE7B7" />
+      <stop offset="50%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+
+    <style>
+      .trophy-title { font-family: 'Segoe UI', Ubuntu, sans-serif; font-weight: 700; font-size: 13px; fill: #F3F4F6; text-anchor: middle; }
+      .trophy-rank { font-family: 'Segoe UI', Ubuntu, sans-serif; font-weight: 800; font-size: 11px; fill: #FFE066; text-anchor: middle; letter-spacing: 0.5px; }
+      .trophy-desc { font-family: 'Segoe UI', Ubuntu, sans-serif; font-weight: 500; font-size: 11px; fill: #9CA3AF; text-anchor: middle; }
+    </style>
+  </defs>
+
+  <!-- Trophy Card 1: Commits Titan (Diamond S) -->
+  <g transform="translate(10, 5)">
+    <rect width="150" height="125" rx="8" fill="#151515" stroke="#30363d" stroke-width="1.2" />
+    <!-- Trophy Icon -->
+    <g transform="translate(75, 38)">
+      <circle cx="0" cy="0" r="22" fill="#38bdf8" fill-opacity="0.12" stroke="url(#diamond-grad)" stroke-width="1.5" />
+      <path d="M-8 -10h16v6a8 8 0 01-16 0v-6zm-3 2h3v4a5 5 0 01-3-4zm19 0h3a5 5 0 01-3 4v-4zm-8 15v5m-5 0h10" stroke="url(#diamond-grad)" stroke-width="2" stroke-linecap="round" fill="none" />
+    </g>
+    <text x="75" y="76" class="trophy-title">Commits Titan</text>
+    <text x="75" y="93" class="trophy-rank" fill="#38BDF8">RANK S</text>
+    <text x="75" y="110" class="trophy-desc">1,616+ Commits</text>
+  </g>
+
+  <!-- Trophy Card 2: Streak Legend (Gold AAA) -->
+  <g transform="translate(172, 5)">
+    <rect width="150" height="125" rx="8" fill="#151515" stroke="#30363d" stroke-width="1.2" />
+    <g transform="translate(75, 38)">
+      <circle cx="0" cy="0" r="22" fill="#F59E0B" fill-opacity="0.12" stroke="url(#gold-grad)" stroke-width="1.5" />
+      <path d="M0 -12c3 5 8 9 8 15a8 8 0 01-16 0c0-6 5-10 8-15zm-2 15a3 3 0 004 0c0-3-2-5-4-5-2 0-2 2 0 5z" fill="url(#gold-grad)" />
+    </g>
+    <text x="75" y="76" class="trophy-title">Streak Master</text>
+    <text x="75" y="93" class="trophy-rank" fill="#F59E0B">RANK AAA</text>
+    <text x="75" y="110" class="trophy-desc">377 Days Streak</text>
+  </g>
+
+  <!-- Trophy Card 3: Repo Creator (Purple A) -->
+  <g transform="translate(334, 5)">
+    <rect width="150" height="125" rx="8" fill="#151515" stroke="#30363d" stroke-width="1.2" />
+    <g transform="translate(75, 38)">
+      <circle cx="0" cy="0" r="22" fill="#A855F7" fill-opacity="0.12" stroke="url(#purple-grad)" stroke-width="1.5" />
+      <path d="M-9 -9h6l2 3h10v14h-18z" stroke="url(#purple-grad)" stroke-width="2" fill="none" stroke-linejoin="round" />
+    </g>
+    <text x="75" y="76" class="trophy-title">Repo Creator</text>
+    <text x="75" y="93" class="trophy-rank" fill="#C084FC">RANK A</text>
+    <text x="75" y="110" class="trophy-desc">16 Repositories</text>
+  </g>
+
+  <!-- Trophy Card 4: Open Source Dev (Emerald A) -->
+  <g transform="translate(496, 5)">
+    <rect width="150" height="125" rx="8" fill="#151515" stroke="#30363d" stroke-width="1.2" />
+    <g transform="translate(75, 38)">
+      <circle cx="0" cy="0" r="22" fill="#10B981" fill-opacity="0.12" stroke="url(#emerald-grad)" stroke-width="1.5" />
+      <path d="M0 -10l8 4v8l-8 5-8-5v-8z" stroke="url(#emerald-grad)" stroke-width="2" fill="none" />
+      <circle cx="0" cy="-1" r="3" fill="url(#emerald-grad)" />
+    </g>
+    <text x="75" y="76" class="trophy-title">Continuous Dev</text>
+    <text x="75" y="93" class="trophy-rank" fill="#10B981">RANK A</text>
+    <text x="75" y="110" class="trophy-desc">Active Daily</text>
+  </g>
+
+  <!-- Trophy Card 5: Polyglot Coder (Ruby A+) -->
+  <g transform="translate(658, 5)">
+    <rect width="150" height="125" rx="8" fill="#151515" stroke="#30363d" stroke-width="1.2" />
+    <g transform="translate(75, 38)">
+      <circle cx="0" cy="0" r="22" fill="#F43F5E" fill-opacity="0.12" stroke="url(#ruby-grad)" stroke-width="1.5" />
+      <path d="M-6 -8l6-4 6 4v8l-6 4-6-4z" stroke="url(#ruby-grad)" stroke-width="2" fill="none" />
+      <path d="M-3 -2l3 3 5-5" stroke="url(#ruby-grad)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    </g>
+    <text x="75" y="76" class="trophy-title">Multi-Stack</text>
+    <text x="75" y="93" class="trophy-rank" fill="#F43F5E">RANK A+</text>
+    <text x="75" y="110" class="trophy-desc">5+ Languages</text>
+  </g>
+</svg>

@@ -1,0 +1,55 @@
+<svg width="820" height="159" viewBox="0 0 820 159" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="quoteGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#70a5fd" />
+      <stop offset="50%" stop-color="#c084fc" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#70a5fd" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#c084fc" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#e4e2e2" stop-opacity="0.5"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .quote-body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Ubuntu, sans-serif;
+      font-weight: 600;
+      font-size: 18px;
+      fill: #f0f6fc;
+      font-style: italic;
+      letter-spacing: 0.2px;
+    }
+    .quote-mark {
+      font-family: Georgia, serif;
+      font-size: 54px;
+      font-weight: 900;
+      fill: url(#quoteGrad);
+      opacity: 0.9;
+    }
+    .author-tag {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Ubuntu, sans-serif;
+      font-weight: 600;
+      font-size: 12px;
+      fill: #a78bfa;
+      letter-spacing: 0.5px;
+    }
+  </style>
+
+  <!-- Background Card -->
+  <rect x="0.5" y="0.5" width="819" height="158" rx="8" fill="#151515" stroke="url(#borderGrad)" stroke-width="1.2"/>
+
+  <!-- Quotation Accent Mark -->
+  <text x="20" y="52" class="quote-mark">“</text>
+
+  <!-- Quote Content -->
+  <g transform="translate(10, 0)">
+    <text x="56" y="44" class="quote-body">The more intelligent our machines become, the more</text>
+    <text x="56" y="72" class="quote-body">carefully we should protect the parts of ourselves that</text>
+    <text x="56" y="100" class="quote-body">cannot be reduced to computation.</text>
+  </g>
+
+  <!-- Footer Tag -->
+  <text x="790" y="141" text-anchor="end" class="author-tag">✦ Daily Reflection • Hero Harshit</text>
+</svg>

@@ -1,0 +1,104 @@
+<svg width="495" height="195" viewBox="0 0 495 195" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .header {
+      font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
+      fill: #70a5fd;
+      animation: fadeInAnimation 0.8s ease-in-out forwards;
+    }
+    @keyframes fadeInAnimation {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    .stat {
+      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #38bdf8;
+    }
+    .stagger {
+      opacity: 0;
+      animation: fadeInAnimation 0.3s ease-in-out forwards;
+    }
+    .bold { font-weight: 700 }
+    .label {
+      font: 400 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif;
+      fill: #9e9e9e;
+    }
+    .rank-text {
+      font: 800 24px 'Segoe UI', Ubuntu, Sans-Serif; fill: #70a5fd;
+      animation: scaleIn 0.3s ease-in-out forwards;
+    }
+    .rank-percentile-header {
+      font: 500 0.8em 'Segoe UI', Ubuntu, Sans-Serif; fill: #9e9e9e;
+    }
+    .rank-percentile-text {
+      font: 700 0.55em 'Segoe UI', Ubuntu, Sans-Serif; fill: #9e9e9e;
+    }
+  </style>
+
+  <rect
+    data-testid="card-bg"
+    x="0.5"
+    y="0.5"
+    rx="4.5"
+    height="99%"
+    stroke="#e4e2e2"
+    width="494"
+    fill="#151515"
+    stroke-opacity="1"
+  />
+
+  <g transform="translate(25, 35)">
+    <!-- Header Title -->
+    <g transform="translate(0, 0)">
+      <text x="0" y="0" class="header">Hero Harshit's GitHub Stats</text>
+    </g>
+  </g>
+
+  <!-- Left Stats Column -->
+  <g transform="translate(0, 55)">
+    <!-- Total Repositories -->
+    <g class="stagger" style="animation-delay: 150ms" transform="translate(25, 15)">
+      <!-- Repo Icon -->
+      <svg class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16" fill="#79c0ff" x="0" y="0">
+        <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path>
+      </svg>
+      <text class="label" x="25" y="12.5">Total Repositories:</text>
+      <text class="stat bold" x="200" y="12.5">16</text>
+    </g>
+
+    <!-- Total Commits / Contributions -->
+    <g class="stagger" style="animation-delay: 300ms" transform="translate(25, 40)">
+      <!-- Commit Icon -->
+      <svg class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16" fill="#7ee787" x="0" y="0">
+        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.002 4.002 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"></path>
+      </svg>
+      <text class="label" x="25" y="12.5">Total Commits:</text>
+      <text class="stat bold" x="200" y="12.5">1,616</text>
+    </g>
+
+    <!-- Highest Streak -->
+    <g class="stagger" style="animation-delay: 450ms" transform="translate(25, 65)">
+      <!-- Lightning Icon -->
+      <svg class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16" fill="#ffa657" x="0" y="0">
+        <path fill-rule="evenodd" d="M7.75 0a.75.75 0 01.75.75V6h3.25a.75.75 0 01.53 1.28l-6 6a.75.75 0 01-1.28-.53V8H1.75a.75.75 0 01-.53-1.28l6-6A.75.75 0 017.75 0z"></path>
+      </svg>
+      <text class="label" x="25" y="12.5">Highest Streak:</text>
+      <text class="stat bold" x="200" y="12.5">377 Days 🔥</text>
+    </g>
+
+    <!-- Current Streak -->
+    <g class="stagger" style="animation-delay: 600ms" transform="translate(25, 90)">
+      <!-- Flame/Star Icon -->
+      <svg class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16" fill="#d2a8ff" x="0" y="0">
+        <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"></path>
+      </svg>
+      <text class="label" x="25" y="12.5">Contributed to:</text>
+      <text class="stat bold" x="200" y="12.5">16+ Repos</text>
+    </g>
+  </g>
+
+  <!-- Right Side: Circular Rank Badge (Same exact github-readme-stats look) -->
+  <g transform="translate(390, 110)">
+    <circle cx="0" cy="0" r="40" fill="none" stroke="#21262d" stroke-width="4" />
+    <circle cx="0" cy="0" r="40" fill="none" stroke="#70a5fd" stroke-width="4" stroke-dasharray="250" stroke-dashoffset="35" stroke-linecap="round" />
+    <text x="0" y="8" text-anchor="middle" class="rank-text">A+</text>
+  </g>
+</svg>

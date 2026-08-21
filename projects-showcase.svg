@@ -1,0 +1,139 @@
+<svg width="820" height="230" viewBox="0 0 820 230" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .proj-title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Ubuntu, sans-serif; font-weight: 700; font-size: 16px; }
+      .proj-desc { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Ubuntu, sans-serif; font-weight: 400; font-size: 11.5px; fill: #8b949e; line-height: 1.4; }
+      .tag-text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Ubuntu, sans-serif; font-weight: 600; font-size: 10px; fill: #c9d1d9; }
+      .card-box { transition: all 0.3s ease; }
+      
+      @keyframes cardGlow {
+        0%, 100% { stroke-opacity: 0.5; }
+        50% { stroke-opacity: 0.9; }
+      }
+      .anim-glow { animation: cardGlow 3s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <!-- CARD 1: Monever -->
+  <g transform="translate(0, 0)">
+    <!-- Container -->
+    <rect x="0.5" y="0.5" width="260" height="228" rx="8" fill="#151515" stroke="#e4e2e2" stroke-opacity="0.6" stroke-width="1" class="card-box" />
+    
+    <!-- Top Header & Icon -->
+    <g transform="translate(18, 22)">
+      <!-- Mini Icon Badge -->
+      <rect width="30" height="30" rx="6" fill="#2d2212" stroke="#fb8c00" stroke-width="1" stroke-opacity="0.6"/>
+      <text x="15" y="20" text-anchor="middle" font-size="15">📼</text>
+      
+      <!-- Title -->
+      <text x="38" y="21" class="proj-title" fill="#ffb74d">Monever</text>
+    </g>
+
+    <!-- Subtitle / Tagline -->
+    <text x="18" y="72" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Ubuntu, sans-serif" font-weight="600" font-size="11px" fill="#d29922">90s-Inspired Financial App</text>
+
+    <!-- Description -->
+    <text x="18" y="94" class="proj-desc">
+      <tspan x="18" dy="0">A retro financial tool that</tspan>
+      <tspan x="18" dy="16">evolved from a hackathon into a</tspan>
+      <tspan x="18" dy="16">full personal finance sanctuary.</tspan>
+    </text>
+
+    <!-- Tech Tags -->
+    <g transform="translate(18, 175)">
+      <!-- Tag 1 -->
+      <rect width="52" height="20" rx="4" fill="#21262d" stroke="#30363d"/>
+      <text x="26" y="14" text-anchor="middle" class="tag-text">React</text>
+
+      <!-- Tag 2 -->
+      <rect x="58" width="68" height="20" rx="4" fill="#21262d" stroke="#30363d"/>
+      <text x="92" y="14" text-anchor="middle" class="tag-text">Chart.js</text>
+
+      <!-- Tag 3 -->
+      <rect x="132" width="70" height="20" rx="4" fill="#21262d" stroke="#30363d"/>
+      <text x="167" y="14" text-anchor="middle" class="tag-text">JavaScript</text>
+    </g>
+  </g>
+
+  <!-- CARD 2: Museum of Memory Marbles -->
+  <g transform="translate(280, 0)">
+    <!-- Container -->
+    <rect x="0.5" y="0.5" width="260" height="228" rx="8" fill="#151515" stroke="#e4e2e2" stroke-opacity="0.6" stroke-width="1" class="card-box" />
+    
+    <!-- Top Header & Icon -->
+    <g transform="translate(18, 22)">
+      <!-- Mini Icon Badge -->
+      <rect width="30" height="30" rx="6" fill="#231834" stroke="#a78bfa" stroke-width="1" stroke-opacity="0.6"/>
+      <text x="15" y="20" text-anchor="middle" font-size="15">🔮</text>
+      
+      <!-- Title -->
+      <text x="38" y="21" class="proj-title" fill="#c084fc">Memory Marbles</text>
+    </g>
+
+    <!-- Subtitle / Tagline -->
+    <text x="18" y="72" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Ubuntu, sans-serif" font-weight="600" font-size="11px" fill="#a855f7">Digital Memory Sanctuary</text>
+
+    <!-- Description -->
+    <text x="18" y="94" class="proj-desc">
+      <tspan x="18" dy="0">Where human memories become</tspan>
+      <tspan x="18" dy="16">luminous, color-coded worlds</tspan>
+      <tspan x="18" dy="16">instead of plain flat text.</tspan>
+    </text>
+
+    <!-- Tech Tags -->
+    <g transform="translate(18, 175)">
+      <!-- Tag 1 -->
+      <rect width="48" height="20" rx="4" fill="#21262d" stroke="#30363d"/>
+      <text x="24" y="14" text-anchor="middle" class="tag-text">WebGL</text>
+
+      <!-- Tag 2 -->
+      <rect x="54" width="58" height="20" rx="4" fill="#21262d" stroke="#30363d"/>
+      <text x="83" y="14" text-anchor="middle" class="tag-text">Tailwind</text>
+
+      <!-- Tag 3 -->
+      <rect x="118" width="62" height="20" rx="4" fill="#21262d" stroke="#30363d"/>
+      <text x="149" y="14" text-anchor="middle" class="tag-text">Python</text>
+    </g>
+  </g>
+
+  <!-- CARD 3: Nxt-Health -->
+  <g transform="translate(560, 0)">
+    <!-- Container -->
+    <rect x="0.5" y="0.5" width="260" height="228" rx="8" fill="#151515" stroke="#e4e2e2" stroke-opacity="0.6" stroke-width="1" class="card-box" />
+    
+    <!-- Top Header & Icon -->
+    <g transform="translate(18, 22)">
+      <!-- Mini Icon Badge -->
+      <rect width="30" height="30" rx="6" fill="#112920" stroke="#34d399" stroke-width="1" stroke-opacity="0.6"/>
+      <text x="15" y="20" text-anchor="middle" font-size="15">🩺</text>
+      
+      <!-- Title -->
+      <text x="38" y="21" class="proj-title" fill="#34d399">Nxt-Health</text>
+    </g>
+
+    <!-- Subtitle / Tagline -->
+    <text x="18" y="72" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Ubuntu, sans-serif" font-weight="600" font-size="11px" fill="#10b981">Explainable Healthcare AI</text>
+
+    <!-- Description -->
+    <text x="18" y="94" class="proj-desc">
+      <tspan x="18" dy="0">Document understanding, billing</tspan>
+      <tspan x="18" dy="16">auditing, and making medical</tspan>
+      <tspan x="18" dy="16">technology more humane.</tspan>
+    </text>
+
+    <!-- Tech Tags -->
+    <g transform="translate(18, 175)">
+      <!-- Tag 1 -->
+      <rect width="48" height="20" rx="4" fill="#21262d" stroke="#30363d"/>
+      <text x="24" y="14" text-anchor="middle" class="tag-text">LLMs</text>
+
+      <!-- Tag 2 -->
+      <rect x="54" width="70" height="20" rx="4" fill="#21262d" stroke="#30363d"/>
+      <text x="89" y="14" text-anchor="middle" class="tag-text">Agentic AI</text>
+
+      <!-- Tag 3 -->
+      <rect x="130" width="58" height="20" rx="4" fill="#21262d" stroke="#30363d"/>
+      <text x="159" y="14" text-anchor="middle" class="tag-text">FastAPI</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,204 @@
+<svg width="820" height="260" viewBox="0 0 820 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .cat-title { font-family: 'Segoe UI', Ubuntu, sans-serif; font-weight: 700; font-size: 13px; fill: #70a5fd; }
+      .pill-text { font-family: 'Segoe UI', Ubuntu, sans-serif; font-weight: 600; font-size: 12px; fill: #f0f6fc; }
+    </style>
+  </defs>
+
+  <!-- Card Background -->
+  <rect x="0.5" y="0.5" rx="8" width="819" height="259" fill="#151515" stroke="#30363d" stroke-width="1.2" />
+
+  <!-- Section 1: Languages -->
+  <g transform="translate(25, 20)">
+    <text x="0" y="16" class="cat-title">💻 Languages</text>
+    <g transform="translate(140, 0)">
+      <!-- Python -->
+      <g transform="translate(0, 0)">
+        <rect width="80" height="26" rx="6" fill="#21262d" stroke="#30363d" />
+        <circle cx="12" cy="13" r="4" fill="#3572A5" />
+        <text x="24" y="17" class="pill-text">Python</text>
+      </g>
+      <!-- TypeScript -->
+      <g transform="translate(90, 0)">
+        <rect width="102" height="26" rx="6" fill="#21262d" stroke="#30363d" />
+        <circle cx="12" cy="13" r="4" fill="#3178c6" />
+        <text x="24" y="17" class="pill-text">TypeScript</text>
+      </g>
+      <!-- JavaScript -->
+      <g transform="translate(202, 0)">
+        <rect width="98" height="26" rx="6" fill="#21262d" stroke="#30363d" />
+        <circle cx="12" cy="13" r="4" fill="#F7DF1E" />
+        <text x="24" y="17" class="pill-text">JavaScript</text>
+      </g>
+      <!-- HTML5 / CSS3 -->
+      <g transform="translate(310, 0)">
+        <rect width="112" height="26" rx="6" fill="#21262d" stroke="#30363d" />
+        <circle cx="12" cy="13" r="4" fill="#e34c26" />
+        <text x="24" y="17" class="pill-text">HTML5 / CSS3</text>
+      </g>
+      <!-- SQL -->
+      <g transform="translate(432, 0)">
+        <rect width="60" height="26" rx="6" fill="#21262d" stroke="#30363d" />
+        <circle cx="12" cy="13" r="4" fill="#e38c00" />
+        <text x="24" y="17" class="pill-text">SQL</text>
+      </g>
+      <!-- PowerShell -->
+      <g transform="translate(502, 0)">
+        <rect width="102" height="26" rx="6" fill="#21262d" stroke="#30363d" />
+        <circle cx="12" cy="13" r="4" fill="#5391FE" />
+        <text x="24" y="17" class="pill-text">PowerShell</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Divider -->
+  <line x1="25" y1="62" x2="795" y2="62" stroke="#21262d" stroke-width="1" />
+
+  <!-- Section 2: Frameworks & Web -->
+  <g transform="translate(25, 76)">
+    <text x="0" y="16" class="cat-title">⚛️ Web &amp; Frameworks</text>
+    <g transform="translate(170, 0)">
+      <!-- React -->
+      <g transform="translate(0, 0)">
+        <rect width="72" height="26" rx="6" fill="#21262d" stroke="#30363d" />
+        <circle cx="12" cy="13" r="4" fill="#61DAFB" />
+        <text x="24" y="17" class="pill-text">React</text>
+      </g>
+      <!-- Next.js -->
+      <g transform="translate(82, 0)">
+        <rect width="80" height="26" rx="6" fill="#21262d" stroke="#30363d" />
+        <circle cx="12" cy="13" r="4" fill="#ffffff" />
+        <text x="24" y="17" class="pill-text">Next.js</text>
+      </g>
+      <!-- Node.js -->
+      <g transform="translate(172, 0)">
+        <rect width="82" height="26" rx="6" fill="#21262d" stroke="#30363d" />
+        <circle cx="12" cy="13" r="4" fill="#6DA55F" />
+        <text x="24" y="17" class="pill-text">Node.js</text>
+      </g>
+      <!-- Express -->
+      <g transform="translate(264, 0)">
+        <rect width="82" height="26" rx="6" fill="#21262d" stroke="#30363d" />
+        <circle cx="12" cy="13" r="4" fill="#61DAFB" />
+        <text x="24" y="17" class="pill-text">Express</text>
+      </g>
+      <!-- Tailwind CSS -->
+      <g transform="translate(356, 0)">
+        <rect width="100" height="26" rx="6" fill="#21262d" stroke="#30363d" />
+        <circle cx="12" cy="13" r="4" fill="#38B2AC" />
+        <text x="24" y="17" class="pill-text">TailwindCSS</text>
+      </g>
+      <!-- Bootstrap -->
+      <g transform="translate(466, 0)">
+        <rect width="90" height="26" rx="6" fill="#21262d" stroke="#30363d" />
+        <circle cx="12" cy="13" r="4" fill="#8511FA" />
+        <text x="24" y="17" class="pill-text">Bootstrap</text>
+      </g>
+      <!-- Vite -->
+      <g transform="translate(566, 0)">
+        <rect width="60" height="26" rx="6" fill="#21262d" stroke="#30363d" />
+        <circle cx="12" cy="13" r="4" fill="#646CFF" />
+        <text x="24" y="17" class="pill-text">Vite</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Divider -->
+  <line x1="25" y1="118" x2="795" y2="118" stroke="#21262d" stroke-width="1" />
+
+  <!-- Section 3: AI & Data Science -->
+  <g transform="translate(25, 132)">
+    <text x="0" y="16" class="cat-title">🤖 AI &amp; Data Science</text>
+    <g transform="translate(170, 0)">
+      <!-- PyTorch -->
+      <g transform="translate(0, 0)">
+        <rect width="82" height="26" rx="6" fill="#21262d" stroke="#30363d" />
+        <circle cx="12" cy="13" r="4" fill="#EE4C2C" />
+        <text x="24" y="17" class="pill-text">PyTorch</text>
+      </g>
+      <!-- TensorFlow -->
+      <g transform="translate(92, 0)">
+        <rect width="102" height="26" rx="6" fill="#21262d" stroke="#30363d" />
+        <circle cx="12" cy="13" r="4" fill="#FF6F00" />
+        <text x="24" y="17" class="pill-text">TensorFlow</text>
+      </g>
+      <!-- Scikit-Learn -->
+      <g transform="translate(204, 0)">
+        <rect width="104" height="26" rx="6" fill="#21262d" stroke="#30363d" />
+        <circle cx="12" cy="13" r="4" fill="#F7931E" />
+        <text x="24" y="17" class="pill-text">Scikit-Learn</text>
+      </g>
+      <!-- Pandas -->
+      <g transform="translate(318, 0)">
+        <rect width="80" height="26" rx="6" fill="#21262d" stroke="#30363d" />
+        <circle cx="12" cy="13" r="4" fill="#150458" />
+        <text x="24" y="17" class="pill-text">Pandas</text>
+      </g>
+      <!-- NumPy -->
+      <g transform="translate(408, 0)">
+        <rect width="78" height="26" rx="6" fill="#21262d" stroke="#30363d" />
+        <circle cx="12" cy="13" r="4" fill="#013243" />
+        <text x="24" y="17" class="pill-text">NumPy</text>
+      </g>
+      <!-- Matplotlib -->
+      <g transform="translate(496, 0)">
+        <rect width="94" height="26" rx="6" fill="#21262d" stroke="#30363d" />
+        <circle cx="12" cy="13" r="4" fill="#11557c" />
+        <text x="24" y="17" class="pill-text">Matplotlib</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Divider -->
+  <line x1="25" y1="174" x2="795" y2="174" stroke="#21262d" stroke-width="1" />
+
+  <!-- Section 4: Cloud & Databases -->
+  <g transform="translate(25, 188)">
+    <text x="0" y="16" class="cat-title">☁️ Cloud &amp; Databases</text>
+    <g transform="translate(170, 0)">
+      <!-- MongoDB -->
+      <g transform="translate(0, 0)">
+        <rect width="90" height="26" rx="6" fill="#21262d" stroke="#30363d" />
+        <circle cx="12" cy="13" r="4" fill="#4ea94b" />
+        <text x="24" y="17" class="pill-text">MongoDB</text>
+      </g>
+      <!-- MySQL -->
+      <g transform="translate(100, 0)">
+        <rect width="76" height="26" rx="6" fill="#21262d" stroke="#30363d" />
+        <circle cx="12" cy="13" r="4" fill="#4479A1" />
+        <text x="24" y="17" class="pill-text">MySQL</text>
+      </g>
+      <!-- Supabase -->
+      <g transform="translate(186, 0)">
+        <rect width="92" height="26" rx="6" fill="#21262d" stroke="#30363d" />
+        <circle cx="12" cy="13" r="4" fill="#3ECF8E" />
+        <text x="24" y="17" class="pill-text">Supabase</text>
+      </g>
+      <!-- SQLite -->
+      <g transform="translate(288, 0)">
+        <rect width="74" height="26" rx="6" fill="#21262d" stroke="#30363d" />
+        <circle cx="12" cy="13" r="4" fill="#07405e" />
+        <text x="24" y="17" class="pill-text">SQLite</text>
+      </g>
+      <!-- AWS -->
+      <g transform="translate(372, 0)">
+        <rect width="64" height="26" rx="6" fill="#21262d" stroke="#30363d" />
+        <circle cx="12" cy="13" r="4" fill="#FF9900" />
+        <text x="24" y="17" class="pill-text">AWS</text>
+      </g>
+      <!-- Vercel -->
+      <g transform="translate(446, 0)">
+        <rect width="76" height="26" rx="6" fill="#21262d" stroke="#30363d" />
+        <circle cx="12" cy="13" r="4" fill="#ffffff" />
+        <text x="24" y="17" class="pill-text">Vercel</text>
+      </g>
+      <!-- Render -->
+      <g transform="translate(532, 0)">
+        <rect width="80" height="26" rx="6" fill="#21262d" stroke="#30363d" />
+        <circle cx="12" cy="13" r="4" fill="#46E3B7" />
+        <text x="24" y="17" class="pill-text">Render</text>
+      </g>
+    </g>
+  </g>
+</svg>

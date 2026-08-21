@@ -1,0 +1,50 @@
+name: Daily Profile & Stats Sync
+
+on:
+  schedule:
+    # Runs everyday at 01:17 AM IST (19:47 UTC) - a natural time past midnight
+    - cron: '47 19 * * *'
+  workflow_dispatch: # Allows manual trigger anytime from the GitHub Actions tab
+  push:
+    branches:
+      - main
+      - master
+    paths-ignore:
+      - '**.svg'
+      - 'Readme.md'
+
+permissions:
+  contents: write
+
+jobs:
+  update-profile:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run Profile Sync Script
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python scripts/update_stats.py
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "Hero-Harshit"
+          git config --global user.email "heroharshit.dev@users.noreply.github.com"
+          
+          git add -A
+          if git diff --staged --quiet; then
+            echo "No changes detected today. Skipping commit."
+          else
+            git commit -m "Daily quote updated"
+            git push
+            echo "Daily thought and stats successfully updated and pushed."
+          fi

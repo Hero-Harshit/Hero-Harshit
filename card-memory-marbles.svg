@@ -1,0 +1,48 @@
+<svg width="260" height="230" viewBox="0 0 260 230" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .proj-title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Ubuntu, sans-serif; font-weight: 700; font-size: 15px; }
+    .proj-desc { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Ubuntu, sans-serif; font-weight: 400; font-size: 11.5px; fill: #8b949e; }
+    .tag-text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Ubuntu, sans-serif; font-weight: 600; font-size: 10px; fill: #c9d1d9; }
+    .stat-text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Ubuntu, sans-serif; font-weight: 500; font-size: 11px; fill: #8b949e; }
+  </style>
+
+  <!-- Card Background -->
+  <rect x="0.5" y="0.5" width="259" height="229" rx="8" fill="#151515" stroke="#e4e2e2" stroke-opacity="0.7" stroke-width="1"/>
+
+  <!-- Top Header with Icon & Title -->
+  <g transform="translate(16, 20)">
+    <!-- Icon Container -->
+    <rect width="32" height="32" rx="6" fill="#231834" stroke="#a78bfa" stroke-width="1" stroke-opacity="0.6"/>
+    <text x="16" y="21" text-anchor="middle" font-size="16">🔮</text>
+    
+    <!-- Title -->
+    <text x="42" y="16" class="proj-title" fill="#c084fc">Memory Marbles</text>
+    <text x="42" y="29" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Ubuntu, sans-serif" font-weight="600" font-size="10.5px" fill="#a855f7">Memory Sanctuary</text>
+  </g>
+
+  <!-- Description -->
+  <text x="16" y="80" class="proj-desc">
+    <tspan x="16" dy="0">Where human moments become</tspan>
+    <tspan x="16" dy="16">luminous, color-coded orbs to</tspan>
+    <tspan x="16" dy="16">be revisited, stored, and felt.</tspan>
+  </text>
+
+  <!-- Stars & Language Row -->
+  <g transform="translate(16, 148)">
+    <text x="0" y="12" class="stat-text">⭐ Spotlight</text>
+    <circle cx="78" cy="8" r="4" fill="#f1e05a"/>
+    <text x="88" y="12" class="stat-text">JavaScript</text>
+  </g>
+
+  <!-- Tech Tags -->
+  <g transform="translate(16, 182)">
+    <rect width="52" height="22" rx="4" fill="#21262d" stroke="#30363d"/>
+    <text x="26" y="15" text-anchor="middle" class="tag-text">WebGL</text>
+
+    <rect x="58" width="64" height="22" rx="4" fill="#21262d" stroke="#30363d"/>
+    <text x="90" y="15" text-anchor="middle" class="tag-text">Tailwind</text>
+
+    <rect x="128" width="60" height="22" rx="4" fill="#21262d" stroke="#30363d"/>
+    <text x="158" y="15" text-anchor="middle" class="tag-text">Python</text>
+  </g>
+</svg>
