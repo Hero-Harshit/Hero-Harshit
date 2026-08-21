@@ -2,8 +2,8 @@ name: Daily Profile & Stats Sync
 
 on:
   schedule:
-    # Runs everyday at 01:17 AM IST (19:47 UTC) - a natural time past midnight
-    - cron: '47 19 * * *'
+    # Runs everyday at 02:40 AM IST (21:10 UTC)
+    - cron: '10 21 * * *'
   workflow_dispatch: # Allows manual trigger anytime from the GitHub Actions tab
   push:
     branches:
