@@ -45,9 +45,9 @@
 
   <!-- Quote Content -->
   <g transform="translate(10, 0)">
-    <text x="56" y="44" class="quote-body">Sometimes the most meaningful software begins not with</text>
-    <text x="56" y="72" class="quote-body">'What can I build?' but with 'What can I make a little</text>
-    <text x="56" y="100" class="quote-body">easier for someone?'</text>
+    <text x="56" y="44" class="quote-body">I like technology most when it disappears into the</text>
+    <text x="56" y="72" class="quote-body">experience and leaves the human feeling a little more</text>
+    <text x="56" y="100" class="quote-body">capable.</text>
   </g>
 
   <!-- Footer Tag -->
