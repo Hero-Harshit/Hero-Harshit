@@ -45,8 +45,8 @@
 
   <!-- Quote Content -->
   <g transform="translate(10, 0)">
-    <text x="56" y="48" class="quote-body">The purpose of a tool is not to impress its creator. It is</text>
-    <text x="56" y="76" class="quote-body">to empower the person holding it.</text>
+    <text x="56" y="48" class="quote-body">A thousand lines of clever code mean very little if they</text>
+    <text x="56" y="76" class="quote-body">do not make someone's world a little clearer.</text>
   </g>
 
   <!-- Footer Tag -->
