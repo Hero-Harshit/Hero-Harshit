@@ -45,8 +45,8 @@
 
   <!-- Quote Content -->
   <g transform="translate(10, 0)">
-    <text x="56" y="48" class="quote-body">A thousand lines of clever code mean very little if they</text>
-    <text x="56" y="76" class="quote-body">do not make someone's world a little clearer.</text>
+    <text x="56" y="48" class="quote-body">I don't want my projects to be impressive only in</text>
+    <text x="56" y="76" class="quote-body">screenshots. I want them to carry a reason for existing.</text>
   </g>
 
   <!-- Footer Tag -->
