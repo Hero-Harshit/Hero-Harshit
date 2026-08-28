@@ -45,8 +45,8 @@
 
   <!-- Quote Content -->
   <g transform="translate(10, 0)">
-    <text x="56" y="48" class="quote-body">I don't want my projects to be impressive only in</text>
-    <text x="56" y="76" class="quote-body">screenshots. I want them to carry a reason for existing.</text>
+    <text x="56" y="48" class="quote-body">There is a quiet difference between building for attention</text>
+    <text x="56" y="76" class="quote-body">and building with intention.</text>
   </g>
 
   <!-- Footer Tag -->
