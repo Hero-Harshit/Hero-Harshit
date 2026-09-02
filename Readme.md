@@ -23,8 +23,8 @@ I’m not chasing a particular title or rushing toward a destination right now. 
 ### ※ My Signature Projects (Top 3)
 
 <p align="center">
-  <a href="https://github.com/Hero-Harshit/nxt-health"><img src="./card-nxt-health.svg" alt="Nxt-Health" width="260" /></a>&nbsp;&nbsp;
-  <a href="https://github.com/Hero-Harshit/museum-of-memory-marbles"><img src="./card-memory-marbles.svg" alt="Museum of Memory Marbles" width="260" /></a>&nbsp;&nbsp;
+  <a href="https://github.com/Hero-Harshit/nxt-health"><img src="./card-nxt-health.svg" alt="Nxt-Health" width="260" /></a>
+  <a href="https://github.com/Hero-Harshit/museum-of-memory-marbles"><img src="./card-memory-marbles.svg" alt="Museum of Memory Marbles" width="260" /></a>
   <a href="https://github.com/Hero-Harshit/monever"><img src="./card-monever.svg" alt="Monever" width="260" /></a>
 </p>
 
