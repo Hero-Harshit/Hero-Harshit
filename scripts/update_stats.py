@@ -258,8 +258,8 @@ def download_api_svgs():
         "top-langs-light.svg": "https://github-readme-stats.vercel.app/api/top-langs/?username=Hero-Harshit&layout=compact&theme=default&hide_border=true",
         "trophies-dark.svg": "https://github-profile-trophy.vercel.app/?username=Hero-Harshit&theme=darkhub&no-bg=true&no-frame=true",
         "trophies-light.svg": "https://github-profile-trophy.vercel.app/?username=Hero-Harshit&theme=flat&no-bg=true&no-frame=true",
-        "streak-stats-dark.svg": "https://github-readme-streak-stats.herokuapp.com/?user=Hero-Harshit&theme=dark&hide_border=true&background=151515",
-        "streak-stats-light.svg": "https://github-readme-streak-stats.herokuapp.com/?user=Hero-Harshit&theme=default&hide_border=true"
+        "streak-stats-dark.svg": "https://github-readme-streak-stats.herokuapp.com/?user=Hero-Harshit&theme=dark&background=151515",
+        "streak-stats-light.svg": "https://github-readme-streak-stats.herokuapp.com/?user=Hero-Harshit&theme=default"
     }
     
     for filename, url in urls.items():
