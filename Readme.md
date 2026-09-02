@@ -92,8 +92,3 @@ I’m not chasing a particular title or rushing toward a destination right now. 
 
 <br/>
 
-# 7. Latest GitHub Activity
-
-<!--START_SECTION:activity-->
-*Generating latest GitHub Activity Feed... Please commit and push to GitHub to run the Action!*
-<!--END_SECTION:activity-->
