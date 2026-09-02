@@ -36,7 +36,7 @@
 
     <!-- LEFT COLUMN: Total Contributions -->
     <g transform='translate(82.5, 0)'>
-        <text x='0' y='72' text-anchor='middle' class='bold-num' font-size='28px'>1,619</text>
+        <text x='0' y='72' text-anchor='middle' class='bold-num' font-size='28px'>609</text>
         <text x='0' y='104' text-anchor='middle' class='label-text'>Total Contributions</text>
         <text x='0' y='126' text-anchor='middle' class='sub-text'>Aug 10, 2025 - Present</text>
     </g>
@@ -55,7 +55,7 @@
         </g>
 
         <!-- Streak Big Number -->
-        <text x='0' y='73' text-anchor='middle' class='bold-num' font-size='26px'>368</text>
+        <text x='0' y='73' text-anchor='middle' class='bold-num' font-size='26px'>377</text>
         
         <!-- Current Streak Label & Range -->
         <text x='0' y='122' text-anchor='middle' class='streak-highlight'>Current Streak</text>
@@ -66,7 +66,7 @@
     <g transform='translate(412.5, 0)'>
         <!-- Top Metric: Mean Commits -->
         <g transform='translate(0, 42)'>
-            <text x='0' y='0' text-anchor='middle' class='bold-num' font-size='22px'>4.4</text>
+            <text x='0' y='0' text-anchor='middle' class='bold-num' font-size='22px'>6.2</text>
             <text x='0' y='18' text-anchor='middle' class='label-text'>Mean Commits</text>
             <text x='0' y='33' text-anchor='middle' class='sub-text'>Daily Average</text>
         </g>
