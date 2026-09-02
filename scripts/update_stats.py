@@ -94,6 +94,19 @@ def update_daily_quote():
       fill: #a78bfa;
       letter-spacing: 0.5px;
     }}
+    @media (max-width: 500px) {{
+      .quote-body {{
+        font-size: 26px;
+      }}
+      .author-tag {{
+        font-size: 18px;
+      }}
+    }}
+    @media (prefers-color-scheme: light) {{
+        rect[fill="#151515"] {{ fill: #ffffff !important; stroke: #e1e4e8 !important; }}
+        .quote-body {{ fill: #24292f !important; }}
+        .author-tag {{ fill: #57606a !important; }}
+    }}
   </style>
 
   <!-- Background Card -->
@@ -237,6 +250,31 @@ def update_streak_and_stats():
             f.write(content)
         print("Updated streak-stats.svg")
 
+def download_api_svgs():
+    urls = {
+        "github-stats-dark.svg": "https://github-readme-stats.vercel.app/api?username=Hero-Harshit&show_icons=true&theme=dark&hide_border=true&bg_color=151515&count_private=true",
+        "github-stats-light.svg": "https://github-readme-stats.vercel.app/api?username=Hero-Harshit&show_icons=true&theme=default&hide_border=true&count_private=true",
+        "top-langs-dark.svg": "https://github-readme-stats.vercel.app/api/top-langs/?username=Hero-Harshit&layout=compact&theme=dark&hide_border=true&bg_color=151515",
+        "top-langs-light.svg": "https://github-readme-stats.vercel.app/api/top-langs/?username=Hero-Harshit&layout=compact&theme=default&hide_border=true",
+        "trophies-dark.svg": "https://github-profile-trophy.vercel.app/?username=Hero-Harshit&theme=darkhub&no-bg=true&no-frame=true",
+        "trophies-light.svg": "https://github-profile-trophy.vercel.app/?username=Hero-Harshit&theme=flat&no-bg=true&no-frame=true",
+        "streak-stats-dark.svg": "https://github-readme-streak-stats.herokuapp.com/?user=Hero-Harshit&theme=dark&hide_border=true&background=151515",
+        "streak-stats-light.svg": "https://github-readme-streak-stats.herokuapp.com/?user=Hero-Harshit&theme=default&hide_border=true"
+    }
+    
+    for filename, url in urls.items():
+        try:
+            req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+            with urllib.request.urlopen(req) as response:
+                content = response.read().decode('utf-8')
+                if '<svg' in content:
+                    with open(filename, 'w', encoding='utf-8') as f:
+                        f.write(content)
+                    print(f"Downloaded {filename}")
+        except Exception as e:
+            print(f"Failed to fetch {filename}: {e}")
+
 if __name__ == "__main__":
     update_daily_quote()
     update_streak_and_stats()
+    download_api_svgs()

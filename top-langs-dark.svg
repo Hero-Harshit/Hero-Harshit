@@ -1,0 +1,101 @@
+<svg width="495" height="195" viewBox="0 0 495 195" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .header {
+      font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
+      fill: #70a5fd;
+      animation: fadeInAnimation 0.8s ease-in-out forwards;
+    }
+    .lang-name {
+      font: 600 13px 'Segoe UI', Ubuntu, Sans-Serif;
+      fill: #f0f6fc;
+    }
+    .lang-pct {
+      font: 400 13px 'Segoe UI', Ubuntu, Sans-Serif;
+      fill: #8b949e;
+    }
+    @keyframes fadeInAnimation {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    .stagger {
+      opacity: 0;
+      animation: fadeInAnimation 0.4s ease-in-out forwards;
+    }
+  </style>
+
+  <!-- Background Card -->
+  <rect
+    x="0.5"
+    y="0.5"
+    rx="4.5"
+    height="99%"
+    stroke="#e4e2e2"
+    width="494"
+    fill="#151515"
+    stroke-opacity="1"
+  />
+
+  <!-- Header -->
+  <g transform="translate(25, 35)">
+    <text x="0" y="0" class="header">Most Used Languages</text>
+  </g>
+
+  <!-- Multi-colored Progress Bar -->
+  <g transform="translate(25, 55)">
+    <mask id="bar-mask">
+      <rect x="0" y="0" width="445" height="10" rx="5" fill="white"/>
+    </mask>
+    <g mask="url(#bar-mask)">
+      <!-- Python: 45.2% -> 201px -->
+      <rect x="0" y="0" width="201" height="10" fill="#3572A5" />
+      <!-- JavaScript: 26.8% -> 119px -->
+      <rect x="201" y="0" width="119" height="10" fill="#F7DF1E" />
+      <!-- TypeScript: 16.4% -> 73px -->
+      <rect x="320" y="0" width="73" height="10" fill="#3178c6" />
+      <!-- HTML/CSS: 8.2% -> 37px -->
+      <rect x="393" y="0" width="37" height="10" fill="#e34c26" />
+      <!-- Other: 3.4% -> 15px -->
+      <rect x="430" y="0" width="15" height="10" fill="#89e051" />
+    </g>
+  </g>
+
+  <!-- Language List Grid (2 columns) -->
+  <g transform="translate(25, 90)">
+    <!-- Column 1 -->
+    <!-- Python -->
+    <g class="stagger" style="animation-delay: 150ms" transform="translate(0, 15)">
+      <circle cx="6" cy="6" r="5" fill="#3572A5" />
+      <text x="20" y="10" class="lang-name">Python</text>
+      <text x="140" y="10" class="lang-pct">45.2%</text>
+    </g>
+
+    <!-- JavaScript -->
+    <g class="stagger" style="animation-delay: 300ms" transform="translate(0, 45)">
+      <circle cx="6" cy="6" r="5" fill="#F7DF1E" />
+      <text x="20" y="10" class="lang-name">JavaScript</text>
+      <text x="140" y="10" class="lang-pct">26.8%</text>
+    </g>
+
+    <!-- HTML / CSS -->
+    <g class="stagger" style="animation-delay: 450ms" transform="translate(0, 75)">
+      <circle cx="6" cy="6" r="5" fill="#e34c26" />
+      <text x="20" y="10" class="lang-name">HTML / CSS</text>
+      <text x="140" y="10" class="lang-pct">8.2%</text>
+    </g>
+
+    <!-- Column 2 -->
+    <!-- TypeScript -->
+    <g class="stagger" style="animation-delay: 200ms" transform="translate(235, 15)">
+      <circle cx="6" cy="6" r="5" fill="#3178c6" />
+      <text x="20" y="10" class="lang-name">TypeScript</text>
+      <text x="150" y="10" class="lang-pct">16.4%</text>
+    </g>
+
+    <!-- Jupyter Notebook / Shell -->
+    <g class="stagger" style="animation-delay: 350ms" transform="translate(235, 45)">
+      <circle cx="6" cy="6" r="5" fill="#89e051" />
+      <text x="20" y="10" class="lang-name">Shell / Others</text>
+      <text x="150" y="10" class="lang-pct">3.4%</text>
+    </g>
+  </g>
+</svg>

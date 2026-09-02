@@ -1,0 +1,142 @@
+<svg width="495" height="195" viewBox="0 0 495 195" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .header {
+      font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
+      fill: #70a5fd;
+      animation: fadeInAnimation 0.8s ease-in-out forwards;
+    }
+    .label {
+      font: 600 12px 'Segoe UI', Ubuntu, Sans-Serif;
+      fill: #f0f6fc;
+    }
+    .sublabel {
+      font: 400 11px 'Segoe UI', Ubuntu, Sans-Serif;
+      fill: #8b949e;
+    }
+    .pct {
+      font: 700 12px 'Segoe UI', Ubuntu, Sans-Serif;
+      fill: #38bdf8;
+    }
+    .day-label {
+      font: 600 11px 'Segoe UI', Ubuntu, Sans-Serif;
+      fill: #8b949e;
+      text-anchor: middle;
+    }
+    .day-val {
+      font: 700 10px 'Segoe UI', Ubuntu, Sans-Serif;
+      fill: #3fb950;
+      text-anchor: middle;
+    }
+    @keyframes fadeInAnimation {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+  </style>
+
+  <!-- Background Card -->
+  <rect
+    x="0.5"
+    y="0.5"
+    rx="4.5"
+    height="99%"
+    stroke="#e4e2e2"
+    width="494"
+    fill="#151515"
+    stroke-opacity="1"
+  />
+
+  <!-- Header -->
+  <g transform="translate(25, 35)">
+    <text x="0" y="0" class="header">⚡ Productive Coding Habits</text>
+  </g>
+
+  <!-- Left Section: Time of Day Breakdown -->
+  <g transform="translate(25, 60)">
+    <!-- Morning -->
+    <g transform="translate(0, 10)">
+      <text x="0" y="0" class="label">🌅 Morning</text>
+      <text x="75" y="0" class="sublabel">(06:00 - 12:00)</text>
+      <text x="195" y="0" class="pct" fill="#38bdf8">18%</text>
+      <rect x="0" y="6" width="180" height="6" rx="3" fill="#21262d" />
+      <rect x="0" y="6" width="32" height="6" rx="3" fill="#38bdf8" />
+    </g>
+
+    <!-- Daytime -->
+    <g transform="translate(0, 38)">
+      <text x="0" y="0" class="label">🌞 Daytime</text>
+      <text x="75" y="0" class="sublabel">(12:00 - 18:00)</text>
+      <text x="195" y="0" class="pct" fill="#38bdf8">28%</text>
+      <rect x="0" y="6" width="180" height="6" rx="3" fill="#21262d" />
+      <rect x="0" y="6" width="50" height="6" rx="3" fill="#38bdf8" />
+    </g>
+
+    <!-- Evening (Peak) -->
+    <g transform="translate(0, 66)">
+      <text x="0" y="0" class="label">🌆 Evening</text>
+      <text x="75" y="0" class="sublabel">(18:00 - 00:00)</text>
+      <text x="195" y="0" class="pct" fill="#ff7b00">42% ⚡</text>
+      <rect x="0" y="6" width="180" height="6" rx="3" fill="#21262d" />
+      <rect x="0" y="6" width="76" height="6" rx="3" fill="#ff7b00" />
+    </g>
+
+    <!-- Night Owl -->
+    <g transform="translate(0, 94)">
+      <text x="0" y="0" class="label">🌌 Night Owl</text>
+      <text x="75" y="0" class="sublabel">(00:00 - 06:00)</text>
+      <text x="195" y="0" class="pct" fill="#a855f7">12%</text>
+      <rect x="0" y="6" width="180" height="6" rx="3" fill="#21262d" />
+      <rect x="0" y="6" width="22" height="6" rx="3" fill="#a855f7" />
+    </g>
+  </g>
+
+  <!-- Divider Line -->
+  <line x1="260" y1="55" x2="260" y2="175" stroke="#21262d" stroke-width="1" />
+
+  <!-- Right Section: Weekly Days Activity Bar Graph -->
+  <g transform="translate(275, 55)">
+    <text x="95" y="10" text-anchor="middle" class="label" fill="#70a5fd">Weekly Activity</text>
+
+    <!-- 7 Day Vertical Bars -->
+    <!-- Mon -->
+    <g transform="translate(10, 30)">
+      <rect x="0" y="30" width="14" height="50" rx="3" fill="#238636" />
+      <text x="7" y="92" class="day-label">M</text>
+    </g>
+
+    <!-- Tue -->
+    <g transform="translate(34, 30)">
+      <rect x="0" y="22" width="14" height="58" rx="3" fill="#2ea043" />
+      <text x="7" y="92" class="day-label">T</text>
+    </g>
+
+    <!-- Wed -->
+    <g transform="translate(58, 30)">
+      <rect x="0" y="10" width="14" height="70" rx="3" fill="#39d353" />
+      <text x="7" y="92" class="day-label" fill="#39d353">W</text>
+    </g>
+
+    <!-- Thu -->
+    <g transform="translate(82, 30)">
+      <rect x="0" y="18" width="14" height="62" rx="3" fill="#2ea043" />
+      <text x="7" y="92" class="day-label">T</text>
+    </g>
+
+    <!-- Fri -->
+    <g transform="translate(106, 30)">
+      <rect x="0" y="8" width="14" height="72" rx="3" fill="#39d353" />
+      <text x="7" y="92" class="day-label" fill="#39d353">F</text>
+    </g>
+
+    <!-- Sat -->
+    <g transform="translate(130, 30)">
+      <rect x="0" y="25" width="14" height="55" rx="3" fill="#238636" />
+      <text x="7" y="92" class="day-label">S</text>
+    </g>
+
+    <!-- Sun -->
+    <g transform="translate(154, 30)">
+      <rect x="0" y="38" width="14" height="42" rx="3" fill="#0e4429" />
+      <text x="7" y="92" class="day-label">S</text>
+    </g>
+  </g>
+</svg>

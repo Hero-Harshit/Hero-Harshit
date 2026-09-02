@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./header.svg" alt="Hero Harshit" width="820" />
+  <img src="./header.svg" alt="Hero Harshit" width="540" />
 </p>
 
 <br/>
@@ -23,8 +23,8 @@ I’m not chasing a particular title or rushing toward a destination right now. 
 ### ※ My Signature Projects (Top 3)
 
 <p align="center">
-  <a href="https://github.com/Hero-Harshit/nxt-health"><img src="./card-nxt-health.svg" alt="Nxt-Health" width="260" /></a>
-  <a href="https://github.com/Hero-Harshit/museum-of-memory-marbles"><img src="./card-memory-marbles.svg" alt="Museum of Memory Marbles" width="260" /></a>
+  <a href="https://github.com/Hero-Harshit/nxt-health"><img src="./card-nxt-health.svg" alt="Nxt-Health" width="260" /></a>&nbsp;&nbsp;
+  <a href="https://github.com/Hero-Harshit/museum-of-memory-marbles"><img src="./card-memory-marbles.svg" alt="Museum of Memory Marbles" width="260" /></a>&nbsp;&nbsp;
   <a href="https://github.com/Hero-Harshit/monever"><img src="./card-monever.svg" alt="Monever" width="260" /></a>
 </p>
 
@@ -46,7 +46,11 @@ I’m not chasing a particular title or rushing toward a destination right now. 
 # 4. Achievements & Trophies
 
 <p align="center">
-  <img src="./trophies.svg" alt="Hero Harshit's GitHub Trophies" />
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="./trophies-light.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="./trophies-dark.svg">
+    <img src="./trophies-dark.svg" alt="Hero Harshit's GitHub Trophies" />
+  </picture>
 </p>
 
 <br/>
@@ -54,18 +58,42 @@ I’m not chasing a particular title or rushing toward a destination right now. 
 # 5. GitHub Stats
 
 <p align="center">
-  <img src="./github-stats.svg" alt="Hero Harshit's GitHub Stats" />
-  <img src="./streak-stats.svg" alt="Hero Harshit's Streak Stats" />
-  <img src="./top-langs.svg" alt="Hero Harshit's Most Used Languages" />
-  <img src="./productivity.svg" alt="Hero Harshit's Coding Habits" />
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="./github-stats-light.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="./github-stats-dark.svg">
+    <img src="./github-stats-dark.svg" alt="Hero Harshit's GitHub Stats" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="./streak-stats-light.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="./streak-stats-dark.svg">
+    <img src="./streak-stats-dark.svg" alt="Hero Harshit's Streak Stats" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="./top-langs-light.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="./top-langs-dark.svg">
+    <img src="./top-langs-dark.svg" alt="Hero Harshit's Most Used Languages" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="./productivity-light.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="./productivity-dark.svg">
+    <img src="./productivity-dark.svg" alt="Hero Harshit's Coding Habits" />
+  </picture>
 </p>
-
-<br/>
-
 
 # 6. 3D Contribution Landscape
 
 <p align="center">
-  <img src="./profile-3d-contrib.svg" alt="Hero Harshit's 3D Contribution Graph" />
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-green-animate.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-view.svg">
+    <img src="./profile-3d-contrib/profile-night-view.svg" alt="Hero Harshit's 3D Contribution Graph" />
+  </picture>
 </p>
 
+<br/>
+
+# 7. Latest GitHub Activity
+
+<!--START_SECTION:activity-->
+*Generating latest GitHub Activity Feed... Please commit and push to GitHub to run the Action!*
+<!--END_SECTION:activity-->

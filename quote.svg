@@ -1,4 +1,4 @@
-<svg width="820" height="159" viewBox="0 0 820 159" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="820" height="135" viewBox="0 0 820 135" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="quoteGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#70a5fd" />
@@ -35,21 +35,33 @@
       fill: #a78bfa;
       letter-spacing: 0.5px;
     }
+    @media (max-width: 500px) {
+      .quote-body {
+        font-size: 26px;
+      }
+      .author-tag {
+        font-size: 18px;
+      }
+    }
+    @media (prefers-color-scheme: light) {
+        rect[fill="#151515"] { fill: #ffffff !important; stroke: #e1e4e8 !important; }
+        .quote-body { fill: #24292f !important; }
+        .author-tag { fill: #57606a !important; }
+    }
   </style>
 
   <!-- Background Card -->
-  <rect x="0.5" y="0.5" width="819" height="158" rx="8" fill="#151515" stroke="url(#borderGrad)" stroke-width="1.2"/>
+  <rect x="0.5" y="0.5" width="819" height="134" rx="8" fill="#151515" stroke="url(#borderGrad)" stroke-width="1.2"/>
 
   <!-- Quotation Accent Mark -->
   <text x="20" y="52" class="quote-mark">“</text>
 
   <!-- Quote Content -->
   <g transform="translate(10, 0)">
-    <text x="56" y="44" class="quote-body">There are problems worth solving because they are</text>
-    <text x="56" y="72" class="quote-body">difficult, and there are problems worth solving because</text>
-    <text x="56" y="100" class="quote-body">someone is quietly hurting.</text>
+    <text x="56" y="48" class="quote-body">I like unusual ideas because the world already has enough</text>
+    <text x="56" y="76" class="quote-body">copies of things that were safe to build.</text>
   </g>
 
   <!-- Footer Tag -->
-  <text x="790" y="141" text-anchor="end" class="author-tag">✦ Daily Reflection • Hero Harshit</text>
+  <text x="790" y="117" text-anchor="end" class="author-tag">✦ Daily Reflection • Hero Harshit</text>
 </svg>

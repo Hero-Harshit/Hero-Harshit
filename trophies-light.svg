@@ -39,7 +39,7 @@
 
   <!-- Trophy Card 1: Commits Titan (Diamond S) -->
   <g transform="translate(10, 5)">
-    <rect width="150" height="125" rx="8" fill="#151515" stroke="#30363d" stroke-width="1.2" />
+    <rect width="150" height="125" rx="8" fill="#333333" stroke="#30363d" stroke-width="1.2" />
     <!-- Trophy Icon -->
     <g transform="translate(75, 38)">
       <circle cx="0" cy="0" r="22" fill="#38bdf8" fill-opacity="0.12" stroke="url(#diamond-grad)" stroke-width="1.5" />
@@ -52,7 +52,7 @@
 
   <!-- Trophy Card 2: Streak Legend (Gold AAA) -->
   <g transform="translate(172, 5)">
-    <rect width="150" height="125" rx="8" fill="#151515" stroke="#30363d" stroke-width="1.2" />
+    <rect width="150" height="125" rx="8" fill="#333333" stroke="#30363d" stroke-width="1.2" />
     <g transform="translate(75, 38)">
       <circle cx="0" cy="0" r="22" fill="#F59E0B" fill-opacity="0.12" stroke="url(#gold-grad)" stroke-width="1.5" />
       <path d="M0 -12c3 5 8 9 8 15a8 8 0 01-16 0c0-6 5-10 8-15zm-2 15a3 3 0 004 0c0-3-2-5-4-5-2 0-2 2 0 5z" fill="url(#gold-grad)" />
@@ -64,7 +64,7 @@
 
   <!-- Trophy Card 3: Repo Creator (Purple A) -->
   <g transform="translate(334, 5)">
-    <rect width="150" height="125" rx="8" fill="#151515" stroke="#30363d" stroke-width="1.2" />
+    <rect width="150" height="125" rx="8" fill="#333333" stroke="#30363d" stroke-width="1.2" />
     <g transform="translate(75, 38)">
       <circle cx="0" cy="0" r="22" fill="#A855F7" fill-opacity="0.12" stroke="url(#purple-grad)" stroke-width="1.5" />
       <path d="M-9 -9h6l2 3h10v14h-18z" stroke="url(#purple-grad)" stroke-width="2" fill="none" stroke-linejoin="round" />
@@ -76,7 +76,7 @@
 
   <!-- Trophy Card 4: Open Source Dev (Emerald A) -->
   <g transform="translate(496, 5)">
-    <rect width="150" height="125" rx="8" fill="#151515" stroke="#30363d" stroke-width="1.2" />
+    <rect width="150" height="125" rx="8" fill="#333333" stroke="#30363d" stroke-width="1.2" />
     <g transform="translate(75, 38)">
       <circle cx="0" cy="0" r="22" fill="#10B981" fill-opacity="0.12" stroke="url(#emerald-grad)" stroke-width="1.5" />
       <path d="M0 -10l8 4v8l-8 5-8-5v-8z" stroke="url(#emerald-grad)" stroke-width="2" fill="none" />
@@ -89,7 +89,7 @@
 
   <!-- Trophy Card 5: Polyglot Coder (Ruby A+) -->
   <g transform="translate(658, 5)">
-    <rect width="150" height="125" rx="8" fill="#151515" stroke="#30363d" stroke-width="1.2" />
+    <rect width="150" height="125" rx="8" fill="#333333" stroke="#30363d" stroke-width="1.2" />
     <g transform="translate(75, 38)">
       <circle cx="0" cy="0" r="22" fill="#F43F5E" fill-opacity="0.12" stroke="url(#ruby-grad)" stroke-width="1.5" />
       <path d="M-6 -8l6-4 6 4v8l-6 4-6-4z" stroke="url(#ruby-grad)" stroke-width="2" fill="none" />
