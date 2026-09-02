@@ -36,7 +36,7 @@
 
     <!-- LEFT COLUMN: Total Contributions -->
     <g transform='translate(82.5, 0)'>
-        <text x='0' y='72' text-anchor='middle' class='bold-num' font-size='28px'>1,616</text>
+        <text x='0' y='72' text-anchor='middle' class='bold-num' font-size='28px'>1,619</text>
         <text x='0' y='104' text-anchor='middle' class='label-text'>Total Contributions</text>
         <text x='0' y='126' text-anchor='middle' class='sub-text'>Aug 10, 2025 - Present</text>
     </g>
@@ -55,7 +55,7 @@
         </g>
 
         <!-- Streak Big Number -->
-        <text x='0' y='73' text-anchor='middle' class='bold-num' font-size='26px'>377</text>
+        <text x='0' y='73' text-anchor='middle' class='bold-num' font-size='26px'>368</text>
         
         <!-- Current Streak Label & Range -->
         <text x='0' y='122' text-anchor='middle' class='streak-highlight'>Current Streak</text>
