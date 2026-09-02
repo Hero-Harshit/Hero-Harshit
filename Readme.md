@@ -80,15 +80,3 @@ I’m not chasing a particular title or rushing toward a destination right now. 
   </picture>
 </p>
 
-# 6. 3D Contribution Landscape
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-green-animate.svg">
-    <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-view.svg">
-    <img src="./profile-3d-contrib/profile-night-view.svg" alt="Hero Harshit's 3D Contribution Graph" />
-  </picture>
-</p>
-
-<br/>
-
