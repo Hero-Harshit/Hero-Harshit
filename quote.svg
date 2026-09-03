@@ -58,8 +58,8 @@
 
   <!-- Quote Content -->
   <g transform="translate(10, 0)">
-    <text x="56" y="48" class="quote-body">I like unusual ideas because the world already has enough</text>
-    <text x="56" y="76" class="quote-body">copies of things that were safe to build.</text>
+    <text x="56" y="48" class="quote-body">Every strange experiment begins with a small act of</text>
+    <text x="56" y="76" class="quote-body">courage: taking an idea seriously enough to try it.</text>
   </g>
 
   <!-- Footer Tag -->
