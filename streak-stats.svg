@@ -55,7 +55,7 @@
         </g>
 
         <!-- Streak Big Number -->
-        <text x='0' y='73' text-anchor='middle' class='bold-num' font-size='26px'>369</text>
+        <text x='0' y='73' text-anchor='middle' class='bold-num' font-size='26px'>377</text>
         
         <!-- Current Streak Label & Range -->
         <text x='0' y='122' text-anchor='middle' class='streak-highlight'>Current Streak</text>
