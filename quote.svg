@@ -58,7 +58,8 @@
 
   <!-- Quote Content -->
   <g transform="translate(10, 0)">
-    <text x="56" y="52" class="quote-body">Progress rarely looks elegant while it is happening.</text>
+    <text x="56" y="48" class="quote-body">Sometimes growth is not becoming someone new. Sometimes it</text>
+    <text x="56" y="76" class="quote-body">is finally becoming comfortable with who you already are.</text>
   </g>
 
   <!-- Footer Tag -->
