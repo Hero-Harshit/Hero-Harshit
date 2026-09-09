@@ -58,8 +58,8 @@
 
   <!-- Quote Content -->
   <g transform="translate(10, 0)">
-    <text x="56" y="48" class="quote-body">Failure is often just information arriving in an</text>
-    <text x="56" y="76" class="quote-body">inconvenient form.</text>
+    <text x="56" y="48" class="quote-body">You cannot debug a system you refuse to inspect. Perhaps</text>
+    <text x="56" y="76" class="quote-body">the same is true of people.</text>
   </g>
 
   <!-- Footer Tag -->
