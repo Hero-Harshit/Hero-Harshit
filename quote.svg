@@ -58,8 +58,8 @@
 
   <!-- Quote Content -->
   <g transform="translate(10, 0)">
-    <text x="56" y="48" class="quote-body">We spend hours fixing broken software. We should be</text>
-    <text x="56" y="76" class="quote-body">equally patient with broken parts of ourselves.</text>
+    <text x="56" y="48" class="quote-body">A system can be refactored. A person can be changed too,</text>
+    <text x="56" y="76" class="quote-body">but never without leaving some history behind.</text>
   </g>
 
   <!-- Footer Tag -->
