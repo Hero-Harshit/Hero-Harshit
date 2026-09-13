@@ -58,8 +58,8 @@
 
   <!-- Quote Content -->
   <g transform="translate(10, 0)">
-    <text x="56" y="48" class="quote-body">A system can be refactored. A person can be changed too,</text>
-    <text x="56" y="76" class="quote-body">but never without leaving some history behind.</text>
+    <text x="56" y="48" class="quote-body">There are versions of ourselves that should not be</text>
+    <text x="56" y="76" class="quote-body">deleted. They should simply be understood.</text>
   </g>
 
   <!-- Footer Tag -->
