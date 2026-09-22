@@ -58,9 +58,9 @@
 
   <!-- Quote Content -->
   <g transform="translate(10, 0)">
-    <text x="56" y="44" class="quote-body">The deeper I go into technology, the more I appreciate</text>
-    <text x="56" y="72" class="quote-body">things that technology cannot replace: presence, kindness,</text>
-    <text x="56" y="100" class="quote-body">memory, wonder.</text>
+    <text x="56" y="44" class="quote-body">A computer can process a million possibilities in a</text>
+    <text x="56" y="72" class="quote-body">second. A human can spend an entire afternoon thinking</text>
+    <text x="56" y="100" class="quote-body">about one.</text>
   </g>
 
   <!-- Footer Tag -->
