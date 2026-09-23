@@ -58,8 +58,8 @@
 
   <!-- Quote Content -->
   <g transform="translate(10, 0)">
-    <text x="56" y="48" class="quote-body">Speed is a wonderful property of machines. Slowness is</text>
-    <text x="56" y="76" class="quote-body">sometimes a wonderful property of being human.</text>
+    <text x="56" y="48" class="quote-body">We built faster computers because we value time. We write</text>
+    <text x="56" y="76" class="quote-body">stories because we value moments.</text>
   </g>
 
   <!-- Footer Tag -->
