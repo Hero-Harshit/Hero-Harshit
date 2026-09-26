@@ -58,8 +58,8 @@
 
   <!-- Quote Content -->
   <g transform="translate(10, 0)">
-    <text x="56" y="48" class="quote-body">Not every thought needs to become an algorithm. Some</text>
-    <text x="56" y="76" class="quote-body">thoughts deserve to remain questions.</text>
+    <text x="56" y="48" class="quote-body">The questions that stay with us longer than the answers</text>
+    <text x="56" y="76" class="quote-body">often become the ones that shape us.</text>
   </g>
 
   <!-- Footer Tag -->
