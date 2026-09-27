@@ -58,8 +58,8 @@
 
   <!-- Quote Content -->
   <g transform="translate(10, 0)">
-    <text x="56" y="48" class="quote-body">The questions that stay with us longer than the answers</text>
-    <text x="56" y="76" class="quote-body">often become the ones that shape us.</text>
+    <text x="56" y="48" class="quote-body">A system is only as intelligent as the questions it helps</text>
+    <text x="56" y="76" class="quote-body">us ask next.</text>
   </g>
 
   <!-- Footer Tag -->
