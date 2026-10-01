@@ -58,8 +58,8 @@
 
   <!-- Quote Content -->
   <g transform="translate(10, 0)">
-    <text x="56" y="48" class="quote-body">I don't want to know everything. I want to remain</text>
-    <text x="56" y="76" class="quote-body">interested in finding out.</text>
+    <text x="56" y="48" class="quote-body">The unknown does not frighten me as much as the</text>
+    <text x="56" y="76" class="quote-body">possibility of becoming uninterested in it.</text>
   </g>
 
   <!-- Footer Tag -->

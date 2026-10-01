@@ -1,101 +1,239 @@
-<svg width="495" height="195" viewBox="0 0 495 195" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    .header {
-      font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
-      fill: #70a5fd;
-      animation: fadeInAnimation 0.8s ease-in-out forwards;
+
+      <svg
+        width="300"
+        height="165"
+        viewBox="0 0 300 165"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        role="img"
+        aria-labelledby="descId"
+      >
+        <title id="titleId"></title>
+        <desc id="descId"></desc>
+        <style>
+          .header {
+            font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
+            fill: #2f80ed;
+            animation: fadeInAnimation 0.8s ease-in-out forwards;
+          }
+          @supports(-moz-appearance: auto) {
+            /* Selector detects Firefox */
+            .header { font-size: 15.5px; }
+          }
+          
+    @keyframes slideInAnimation {
+      from {
+        width: 0;
+      }
+      to {
+        width: calc(100%-100px);
+      }
     }
+    @keyframes growWidthAnimation {
+      from {
+        width: 0;
+      }
+      to {
+        width: 100%;
+      }
+    }
+    .stat {
+      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #434d58;
+    }
+    @supports(-moz-appearance: auto) {
+      /* Selector detects Firefox */
+      .stat { font-size:12px; }
+    }
+    .bold { font-weight: 700 }
     .lang-name {
-      font: 600 13px 'Segoe UI', Ubuntu, Sans-Serif;
-      fill: #f0f6fc;
-    }
-    .lang-pct {
-      font: 400 13px 'Segoe UI', Ubuntu, Sans-Serif;
-      fill: #8b949e;
-    }
-    @keyframes fadeInAnimation {
-      from { opacity: 0; }
-      to { opacity: 1; }
+      font: 400 11px "Segoe UI", Ubuntu, Sans-Serif;
+      fill: #434d58;
     }
     .stagger {
       opacity: 0;
-      animation: fadeInAnimation 0.4s ease-in-out forwards;
+      animation: fadeInAnimation 0.3s ease-in-out forwards;
     }
-  </style>
+    #rect-mask rect{
+      animation: slideInAnimation 1s ease-in-out forwards;
+    }
+    .lang-progress{
+      animation: growWidthAnimation 0.6s ease-in-out forwards;
+    }
+    
 
-  <!-- Background Card -->
-  <rect
-    x="0.5"
-    y="0.5"
-    rx="4.5"
-    height="99%"
-    stroke="#e4e2e2"
-    width="494"
-    fill="#333333"
-    stroke-opacity="1"
-  />
+          
+      /* Animations */
+      @keyframes scaleInAnimation {
+        from {
+          transform: translate(-5px, 5px) scale(0);
+        }
+        to {
+          transform: translate(-5px, 5px) scale(1);
+        }
+      }
+      @keyframes fadeInAnimation {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+    
+          
+        </style>
 
-  <!-- Header -->
-  <g transform="translate(25, 35)">
-    <text x="0" y="0" class="header">Most Used Languages</text>
-  </g>
+        
 
-  <!-- Multi-colored Progress Bar -->
-  <g transform="translate(25, 55)">
-    <mask id="bar-mask">
-      <rect x="0" y="0" width="445" height="10" rx="5" fill="white"/>
-    </mask>
-    <g mask="url(#bar-mask)">
-      <!-- Python: 45.2% -> 201px -->
-      <rect x="0" y="0" width="201" height="10" fill="#3572A5" />
-      <!-- JavaScript: 26.8% -> 119px -->
-      <rect x="201" y="0" width="119" height="10" fill="#F7DF1E" />
-      <!-- TypeScript: 16.4% -> 73px -->
-      <rect x="320" y="0" width="73" height="10" fill="#3178c6" />
-      <!-- HTML/CSS: 8.2% -> 37px -->
-      <rect x="393" y="0" width="37" height="10" fill="#e34c26" />
-      <!-- Other: 3.4% -> 15px -->
-      <rect x="430" y="0" width="15" height="10" fill="#89e051" />
+        <rect
+          data-testid="card-bg"
+          x="0.5"
+          y="0.5"
+          rx="4.5"
+          height="99%"
+          stroke="#e4e2e2"
+          width="299"
+          fill="#fffefe"
+          stroke-opacity="0"
+        />
+
+        
+      <g
+        data-testid="card-title"
+        transform="translate(25, 35)"
+      >
+        <g transform="translate(0, 0)">
+      <text
+        x="0"
+        y="0"
+        class="header"
+        data-testid="header"
+      >Most Used Languages</text>
     </g>
-  </g>
+      </g>
+    
 
-  <!-- Language List Grid (2 columns) -->
-  <g transform="translate(25, 90)">
-    <!-- Column 1 -->
-    <!-- Python -->
-    <g class="stagger" style="animation-delay: 150ms" transform="translate(0, 15)">
-      <circle cx="6" cy="6" r="5" fill="#3572A5" />
-      <text x="20" y="10" class="lang-name">Python</text>
-      <text x="140" y="10" class="lang-pct">45.2%</text>
+        <g
+          data-testid="main-card-body"
+          transform="translate(0, 55)"
+        >
+          
+    <svg data-testid="lang-items" x="25">
+      
+  
+      <mask id="rect-mask">
+          <rect x="0" y="0" width="250" height="8" fill="white" rx="5"/>
+        </mask>
+        
+        <rect
+          mask="url(#rect-mask)"
+          data-testid="lang-progress"
+          x="0"
+          y="0"
+          width="84.71"
+          height="8"
+          fill="#f1e05a"
+        />
+      
+        <rect
+          mask="url(#rect-mask)"
+          data-testid="lang-progress"
+          x="84.71"
+          y="0"
+          width="78.73"
+          height="8"
+          fill="#3178c6"
+        />
+      
+        <rect
+          mask="url(#rect-mask)"
+          data-testid="lang-progress"
+          x="163.44"
+          y="0"
+          width="50.44"
+          height="8"
+          fill="#e34c26"
+        />
+      
+        <rect
+          mask="url(#rect-mask)"
+          data-testid="lang-progress"
+          x="213.88"
+          y="0"
+          width="21.67"
+          height="8"
+          fill="#663399"
+        />
+      
+        <rect
+          mask="url(#rect-mask)"
+          data-testid="lang-progress"
+          x="235.55"
+          y="0"
+          width="18.73"
+          height="8"
+          fill="#3572A5"
+        />
+      
+        <rect
+          mask="url(#rect-mask)"
+          data-testid="lang-progress"
+          x="244.28"
+          y="0"
+          width="15.71"
+          height="8"
+          fill="#b07219"
+        />
+      
+      
+    <g transform="translate(0, 25)">
+      <g transform="translate(0, 0)"><g transform="translate(0, 0)">
+    <g class="stagger" style="animation-delay: 450ms">
+      <circle cx="5" cy="6" r="5" fill="#f1e05a" />
+      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
+        JavaScript 33.88%
+      </text>
     </g>
-
-    <!-- JavaScript -->
-    <g class="stagger" style="animation-delay: 300ms" transform="translate(0, 45)">
-      <circle cx="6" cy="6" r="5" fill="#F7DF1E" />
-      <text x="20" y="10" class="lang-name">JavaScript</text>
-      <text x="140" y="10" class="lang-pct">26.8%</text>
+  </g><g transform="translate(0, 25)">
+    <g class="stagger" style="animation-delay: 600ms">
+      <circle cx="5" cy="6" r="5" fill="#3178c6" />
+      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
+        TypeScript 31.49%
+      </text>
     </g>
-
-    <!-- HTML / CSS -->
-    <g class="stagger" style="animation-delay: 450ms" transform="translate(0, 75)">
-      <circle cx="6" cy="6" r="5" fill="#e34c26" />
-      <text x="20" y="10" class="lang-name">HTML / CSS</text>
-      <text x="140" y="10" class="lang-pct">8.2%</text>
+  </g><g transform="translate(0, 50)">
+    <g class="stagger" style="animation-delay: 750ms">
+      <circle cx="5" cy="6" r="5" fill="#e34c26" />
+      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
+        HTML 20.18%
+      </text>
     </g>
-
-    <!-- Column 2 -->
-    <!-- TypeScript -->
-    <g class="stagger" style="animation-delay: 200ms" transform="translate(235, 15)">
-      <circle cx="6" cy="6" r="5" fill="#3178c6" />
-      <text x="20" y="10" class="lang-name">TypeScript</text>
-      <text x="150" y="10" class="lang-pct">16.4%</text>
+  </g></g><g transform="translate(150, 0)"><g transform="translate(0, 0)">
+    <g class="stagger" style="animation-delay: 450ms">
+      <circle cx="5" cy="6" r="5" fill="#663399" />
+      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
+        CSS 8.67%
+      </text>
     </g>
-
-    <!-- Jupyter Notebook / Shell -->
-    <g class="stagger" style="animation-delay: 350ms" transform="translate(235, 45)">
-      <circle cx="6" cy="6" r="5" fill="#89e051" />
-      <text x="20" y="10" class="lang-name">Shell / Others</text>
-      <text x="150" y="10" class="lang-pct">3.4%</text>
+  </g><g transform="translate(0, 25)">
+    <g class="stagger" style="animation-delay: 600ms">
+      <circle cx="5" cy="6" r="5" fill="#3572A5" />
+      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
+        Python 3.49%
+      </text>
     </g>
-  </g>
-</svg>
+  </g><g transform="translate(0, 50)">
+    <g class="stagger" style="animation-delay: 750ms">
+      <circle cx="5" cy="6" r="5" fill="#b07219" />
+      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
+        Java 2.29%
+      </text>
+    </g>
+  </g></g>
+    </g>
+  
+    </svg>
+  
+        </g>
+      </svg>
+    
