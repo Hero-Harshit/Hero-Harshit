@@ -58,9 +58,9 @@
 
   <!-- Quote Content -->
   <g transform="translate(10, 0)">
-    <text x="56" y="44" class="quote-body">I don't want to leave behind the largest codebase. I want</text>
-    <text x="56" y="72" class="quote-body">to leave behind a few things that made someone's day,</text>
-    <text x="56" y="100" class="quote-body">memory, or journey a little better.</text>
+    <text x="56" y="44" class="quote-body">In the end, software disappears into the background of</text>
+    <text x="56" y="72" class="quote-body">people's lives. Perhaps that is not a failure. Perhaps the</text>
+    <text x="56" y="100" class="quote-body">highest form of usefulness is becoming quietly invisible.</text>
   </g>
 
   <!-- Footer Tag -->
