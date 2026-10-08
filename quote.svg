@@ -58,9 +58,9 @@
 
   <!-- Quote Content -->
   <g transform="translate(10, 0)">
-    <text x="56" y="44" class="quote-body">The future of technology will be shaped by what we can</text>
-    <text x="56" y="72" class="quote-body">automate. The future of humanity will be shaped by what we</text>
-    <text x="56" y="100" class="quote-body">choose not to.</text>
+    <text x="56" y="44" class="quote-body">Maybe the greatest achievement of technology will not be</text>
+    <text x="56" y="72" class="quote-body">teaching machines to behave like humans, but helping</text>
+    <text x="56" y="100" class="quote-body">humans remember what being human is worth.</text>
   </g>
 
   <!-- Footer Tag -->
