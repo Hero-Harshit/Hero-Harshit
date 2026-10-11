@@ -58,9 +58,9 @@
 
   <!-- Quote Content -->
   <g transform="translate(10, 0)">
-    <text x="56" y="44" class="quote-body">Somewhere between a function and a feeling, between a</text>
-    <text x="56" y="72" class="quote-body">system and a story, between what a machine can do and what</text>
-    <text x="56" y="100" class="quote-body">a human can mean, that is where I want to build.</text>
+    <text x="56" y="44" class="quote-body">I write code, but I also write words. Somewhere between</text>
+    <text x="56" y="72" class="quote-body">the two, I am still trying to understand what it means to</text>
+    <text x="56" y="100" class="quote-body">make something that feels alive.</text>
   </g>
 
   <!-- Footer Tag -->
