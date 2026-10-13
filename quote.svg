@@ -58,9 +58,9 @@
 
   <!-- Quote Content -->
   <g transform="translate(10, 0)">
-    <text x="56" y="44" class="quote-body">I don't want to build software that people merely use. I</text>
-    <text x="56" y="72" class="quote-body">want to build things that quietly become part of someone's</text>
-    <text x="56" y="100" class="quote-body">day, even if only for a moment.</text>
+    <text x="56" y="44" class="quote-body">Computers understand instructions. People understand</text>
+    <text x="56" y="72" class="quote-body">meaning. The most beautiful software I know is where the</text>
+    <text x="56" y="100" class="quote-body">two finally meet.</text>
   </g>
 
   <!-- Footer Tag -->
