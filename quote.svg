@@ -58,8 +58,7 @@
 
   <!-- Quote Content -->
   <g transform="translate(10, 0)">
-    <text x="56" y="48" class="quote-body">An algorithm can tell you what happened. It takes a human</text>
-    <text x="56" y="76" class="quote-body">mind to ask why it mattered.</text>
+    <text x="56" y="52" class="quote-body">Code gives an idea a body. Imagination gives it a soul.</text>
   </g>
 
   <!-- Footer Tag -->
