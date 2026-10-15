@@ -58,7 +58,8 @@
 
   <!-- Quote Content -->
   <g transform="translate(10, 0)">
-    <text x="56" y="52" class="quote-body">Code gives an idea a body. Imagination gives it a soul.</text>
+    <text x="56" y="48" class="quote-body">We teach machines to recognize patterns, while spending</text>
+    <text x="56" y="76" class="quote-body">our own lives searching for meaning in them.</text>
   </g>
 
   <!-- Footer Tag -->
