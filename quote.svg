@@ -58,9 +58,9 @@
 
   <!-- Quote Content -->
   <g transform="translate(10, 0)">
-    <text x="56" y="44" class="quote-body">A program may begin with a problem statement, but the best</text>
-    <text x="56" y="72" class="quote-body">ones eventually become expressions of the person who built</text>
-    <text x="56" y="100" class="quote-body">them.</text>
+    <text x="56" y="44" class="quote-body">Every blank editor reminds me of a blank page: nothing is</text>
+    <text x="56" y="72" class="quote-body">broken, nothing is finished, and everything is still</text>
+    <text x="56" y="100" class="quote-body">possible.</text>
   </g>
 
   <!-- Footer Tag -->
