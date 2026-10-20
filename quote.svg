@@ -58,9 +58,9 @@
 
   <!-- Quote Content -->
   <g transform="translate(10, 0)">
-    <text x="56" y="44" class="quote-body">Every blank editor reminds me of a blank page: nothing is</text>
-    <text x="56" y="72" class="quote-body">broken, nothing is finished, and everything is still</text>
-    <text x="56" y="100" class="quote-body">possible.</text>
+    <text x="56" y="44" class="quote-body">I think good software should feel a little like good</text>
+    <text x="56" y="72" class="quote-body">writing: clear enough to understand, but deep enough to</text>
+    <text x="56" y="100" class="quote-body">stay with you.</text>
   </g>
 
   <!-- Footer Tag -->
