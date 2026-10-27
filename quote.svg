@@ -58,9 +58,9 @@
 
   <!-- Quote Content -->
   <g transform="translate(10, 0)">
-    <text x="56" y="44" class="quote-body">Every function begins as a thought. Every application</text>
-    <text x="56" y="72" class="quote-body">begins as a question. Every creation begins with someone</text>
-    <text x="56" y="100" class="quote-body">caring enough to try.</text>
+    <text x="56" y="44" class="quote-body">There is something deeply human about debugging: looking</text>
+    <text x="56" y="72" class="quote-body">at something broken, refusing to abandon it, and believing</text>
+    <text x="56" y="100" class="quote-body">it can still become what it was meant to be.</text>
   </g>
 
   <!-- Footer Tag -->
