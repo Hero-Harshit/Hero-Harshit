@@ -58,9 +58,9 @@
 
   <!-- Quote Content -->
   <g transform="translate(10, 0)">
-    <text x="56" y="44" class="quote-body">The future will not belong to people who merely know how</text>
-    <text x="56" y="72" class="quote-body">to use intelligent machines. It will belong to those who</text>
-    <text x="56" y="100" class="quote-body">know what questions are worth asking them.</text>
+    <text x="56" y="44" class="quote-body">Artificial intelligence is impressive because it can</text>
+    <text x="56" y="72" class="quote-body">imitate patterns. Human intelligence is beautiful because</text>
+    <text x="56" y="100" class="quote-body">it can wonder why the pattern exists.</text>
   </g>
 
   <!-- Footer Tag -->
