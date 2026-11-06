@@ -58,8 +58,8 @@
 
   <!-- Quote Content -->
   <g transform="translate(10, 0)">
-    <text x="56" y="48" class="quote-body">Perhaps the most human thing we can teach a machine is not</text>
-    <text x="56" y="76" class="quote-body">how to think, but how to leave room for uncertainty.</text>
+    <text x="56" y="48" class="quote-body">We build artificial minds while still spending our lives</text>
+    <text x="56" y="76" class="quote-body">trying to understand our own.</text>
   </g>
 
   <!-- Footer Tag -->
