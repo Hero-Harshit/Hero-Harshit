@@ -58,8 +58,8 @@
 
   <!-- Quote Content -->
   <g transform="translate(10, 0)">
-    <text x="56" y="48" class="quote-body">Every repository is a small archaeological site. Somewhere</text>
-    <text x="56" y="76" class="quote-body">inside it lies evidence of who you were when you built it.</text>
+    <text x="56" y="48" class="quote-body">Git remembers every version of a project. I wish life kept</text>
+    <text x="56" y="76" class="quote-body">the same kind of history for us.</text>
   </g>
 
   <!-- Footer Tag -->
