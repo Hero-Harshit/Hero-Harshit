@@ -58,8 +58,8 @@
 
   <!-- Quote Content -->
   <g transform="translate(10, 0)">
-    <text x="56" y="48" class="quote-body">Git remembers every version of a project. I wish life kept</text>
-    <text x="56" y="76" class="quote-body">the same kind of history for us.</text>
+    <text x="56" y="48" class="quote-body">Every commit is a quiet conversation between who you were</text>
+    <text x="56" y="76" class="quote-body">yesterday and who you will become tomorrow.</text>
   </g>
 
   <!-- Footer Tag -->
