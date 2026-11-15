@@ -58,9 +58,9 @@
 
   <!-- Quote Content -->
   <g transform="translate(10, 0)">
-    <text x="56" y="44" class="quote-body">We delete old files so easily. Human memory is not so</text>
-    <text x="56" y="72" class="quote-body">generous. It keeps things we wish it would forget and</text>
-    <text x="56" y="100" class="quote-body">loses things we desperately want back.</text>
+    <text x="56" y="44" class="quote-body">I like building things because the world forgets quickly,</text>
+    <text x="56" y="72" class="quote-body">but a finished project can leave behind a little proof</text>
+    <text x="56" y="100" class="quote-body">that you were here.</text>
   </g>
 
   <!-- Footer Tag -->
