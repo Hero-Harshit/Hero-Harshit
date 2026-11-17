@@ -58,9 +58,9 @@
 
   <!-- Quote Content -->
   <g transform="translate(10, 0)">
-    <text x="56" y="44" class="quote-body">Memory is fragile. That is why people write poems, take</text>
-    <text x="56" y="72" class="quote-body">photographs, save messages, and build digital homes for</text>
-    <text x="56" y="100" class="quote-body">moments that would otherwise disappear.</text>
+    <text x="56" y="44" class="quote-body">Some of the things we create are not meant to solve a</text>
+    <text x="56" y="72" class="quote-body">problem. Some are simply meant to keep a feeling from</text>
+    <text x="56" y="100" class="quote-body">disappearing.</text>
   </g>
 
   <!-- Footer Tag -->
