@@ -58,9 +58,9 @@
 
   <!-- Quote Content -->
   <g transform="translate(10, 0)">
-    <text x="56" y="44" class="quote-body">Some of the things we create are not meant to solve a</text>
-    <text x="56" y="72" class="quote-body">problem. Some are simply meant to keep a feeling from</text>
-    <text x="56" y="100" class="quote-body">disappearing.</text>
+    <text x="56" y="44" class="quote-body">Technology is often described as progress. Sometimes I</text>
+    <text x="56" y="72" class="quote-body">think it is also our way of refusing to let beautiful</text>
+    <text x="56" y="100" class="quote-body">things become completely lost to time.</text>
   </g>
 
   <!-- Footer Tag -->
