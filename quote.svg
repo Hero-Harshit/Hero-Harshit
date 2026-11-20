@@ -58,8 +58,8 @@
 
   <!-- Quote Content -->
   <g transform="translate(10, 0)">
-    <text x="56" y="48" class="quote-body">The older I get, the more I realize that not everything</text>
-    <text x="56" y="76" class="quote-body">valuable needs to be productive.</text>
+    <text x="56" y="48" class="quote-body">A useless little experiment can sometimes teach you more</text>
+    <text x="56" y="76" class="quote-body">about yourself than a perfectly optimized project.</text>
   </g>
 
   <!-- Footer Tag -->
