@@ -58,8 +58,8 @@
 
   <!-- Quote Content -->
   <g transform="translate(10, 0)">
-    <text x="56" y="48" class="quote-body">Good design hides the struggle behind the experience. You</text>
-    <text x="56" y="76" class="quote-body">should feel the intention, not the implementation.</text>
+    <text x="56" y="48" class="quote-body">A thoughtful interface respects something precious that no</text>
+    <text x="56" y="76" class="quote-body">framework can provide: the user's attention.</text>
   </g>
 
   <!-- Footer Tag -->
