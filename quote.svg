@@ -58,8 +58,8 @@
 
   <!-- Quote Content -->
   <g transform="translate(10, 0)">
-    <text x="56" y="48" class="quote-body">A thoughtful interface respects something precious that no</text>
-    <text x="56" y="76" class="quote-body">framework can provide: the user's attention.</text>
+    <text x="56" y="48" class="quote-body">Every click is a tiny conversation between a person and a</text>
+    <text x="56" y="76" class="quote-body">machine. Good design means listening carefully.</text>
   </g>
 
   <!-- Footer Tag -->
