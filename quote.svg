@@ -58,8 +58,8 @@
 
   <!-- Quote Content -->
   <g transform="translate(10, 0)">
-    <text x="56" y="48" class="quote-body">Every click is a tiny conversation between a person and a</text>
-    <text x="56" y="76" class="quote-body">machine. Good design means listening carefully.</text>
+    <text x="56" y="48" class="quote-body">Users are not traffic, metrics, sessions, or conversion</text>
+    <text x="56" y="76" class="quote-body">rates. They are people who happened to meet your software.</text>
   </g>
 
   <!-- Footer Tag -->
